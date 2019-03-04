@@ -1,0 +1,6 @@
+framework module Pods_Brightspots {
+  umbrella header "Pods-Brightspots-umbrella.h"
+
+  export *
+  module * { export * }
+}

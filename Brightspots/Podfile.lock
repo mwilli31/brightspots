@@ -1,0 +1,24 @@
+PODS:
+  - AloeStackView (1.0.1)
+  - FontAwesome.swift (1.5.1)
+  - PureLayout (3.1.4)
+
+DEPENDENCIES:
+  - AloeStackView
+  - FontAwesome.swift
+  - PureLayout
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AloeStackView
+    - FontAwesome.swift
+    - PureLayout
+
+SPEC CHECKSUMS:
+  AloeStackView: d22c006da4510db5e220968234174654b5ed6ea5
+  FontAwesome.swift: 9b5a9b9adb6d48b2d37c1e789889ef377cfbc205
+  PureLayout: f08c01b8dec00bb14a1fefa3de4c7d9c265df85e
+
+PODFILE CHECKSUM: b54358299a168c2fcb6ffb17e1020e3a0376c600
+
+COCOAPODS: 1.6.1

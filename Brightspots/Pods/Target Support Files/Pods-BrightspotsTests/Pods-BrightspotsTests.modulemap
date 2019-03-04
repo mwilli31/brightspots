@@ -1,0 +1,6 @@
+framework module Pods_BrightspotsTests {
+  umbrella header "Pods-BrightspotsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
