@@ -19,11 +19,12 @@
 		758E5F56222C881600D77169 /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E5F55222C881600D77169 /* ReportsViewController.swift */; };
 		758E5F58222CD57600D77169 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E5F57222CD57600D77169 /* MainTabBarViewController.swift */; };
 		758E5F5A222CD82800D77169 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E5F59222CD82800D77169 /* LogViewController.swift */; };
-		758E5F5E222DBE5700D77169 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E5F5D222DBE5700D77169 /* HomeView.swift */; };
 		758E5F65222DD2E200D77169 /* SwitchRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E5F63222DD2E200D77169 /* SwitchRowView.swift */; };
 		758E5F66222DD2E200D77169 /* ExpandingRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E5F64222DD2E200D77169 /* ExpandingRowView.swift */; };
 		758E5F68222DD2EB00D77169 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E5F67222DD2EB00D77169 /* PhotoViewController.swift */; };
 		758E5F6A222DDE9700D77169 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E5F69222DDE9700D77169 /* TestViewController.swift */; };
+		758E5F6C222DFF4000D77169 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E5F6B222DFF4000D77169 /* ScheduleViewController.swift */; };
+		758E5F6E222E12CE00D77169 /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E5F6D222E12CE00D77169 /* TrackViewController.swift */; };
 		BA7D9CDBD631E3B327E133F8 /* Pods_Brightspots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 638AF01D2076AFB87B927BF8 /* Pods_Brightspots.framework */; };
 		C5FE34B4F1DD60C4978C4215 /* Pods_BrightspotsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CE636D1075760F9194C6B6 /* Pods_BrightspotsUITests.framework */; };
 /* End PBXBuildFile section */
@@ -68,11 +69,12 @@
 		758E5F55222C881600D77169 /* ReportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsViewController.swift; sourceTree = "<group>"; };
 		758E5F57222CD57600D77169 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		758E5F59222CD82800D77169 /* LogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
-		758E5F5D222DBE5700D77169 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		758E5F63222DD2E200D77169 /* SwitchRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchRowView.swift; sourceTree = "<group>"; };
 		758E5F64222DD2E200D77169 /* ExpandingRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandingRowView.swift; sourceTree = "<group>"; };
 		758E5F67222DD2EB00D77169 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		758E5F69222DDE9700D77169 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TestViewController.swift; path = Brightspots/main/Controllers/TestViewController.swift; sourceTree = "<group>"; };
+		758E5F6B222DFF4000D77169 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		758E5F6D222E12CE00D77169 /* TrackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
 		C55B4257CD127AC93816CAEF /* Pods-Brightspots.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brightspots.debug.xcconfig"; path = "Target Support Files/Pods-Brightspots/Pods-Brightspots.debug.xcconfig"; sourceTree = "<group>"; };
 		C809D9AC394FD401058DD3F0 /* Pods-Brightspots.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brightspots.release.xcconfig"; path = "Target Support Files/Pods-Brightspots/Pods-Brightspots.release.xcconfig"; sourceTree = "<group>"; };
 		C9DBB20B2C76428ED0C6C58B /* Pods_BrightspotsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrightspotsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -173,7 +175,6 @@
 		758E5F5B222DBE0500D77169 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				758E5F5D222DBE5700D77169 /* HomeView.swift */,
 				758E5F64222DD2E200D77169 /* ExpandingRowView.swift */,
 				758E5F63222DD2E200D77169 /* SwitchRowView.swift */,
 			);
@@ -186,6 +187,8 @@
 				758E5F67222DD2EB00D77169 /* PhotoViewController.swift */,
 				758E5F57222CD57600D77169 /* MainTabBarViewController.swift */,
 				758E5F24222C857700D77169 /* HomeViewController.swift */,
+				758E5F6B222DFF4000D77169 /* ScheduleViewController.swift */,
+				758E5F6D222E12CE00D77169 /* TrackViewController.swift */,
 				758E5F26222C857700D77169 /* NetworkViewController.swift */,
 				758E5F55222C881600D77169 /* ReportsViewController.swift */,
 				758E5F59222CD82800D77169 /* LogViewController.swift */,
@@ -447,15 +450,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				758E5F58222CD57600D77169 /* MainTabBarViewController.swift in Sources */,
-				758E5F5E222DBE5700D77169 /* HomeView.swift in Sources */,
 				758E5F6A222DDE9700D77169 /* TestViewController.swift in Sources */,
 				758E5F56222C881600D77169 /* ReportsViewController.swift in Sources */,
 				758E5F66222DD2E200D77169 /* ExpandingRowView.swift in Sources */,
+				758E5F6E222E12CE00D77169 /* TrackViewController.swift in Sources */,
 				758E5F65222DD2E200D77169 /* SwitchRowView.swift in Sources */,
 				758E5F27222C857700D77169 /* NetworkViewController.swift in Sources */,
 				758E5F5A222CD82800D77169 /* LogViewController.swift in Sources */,
 				758E5F23222C857700D77169 /* AppDelegate.swift in Sources */,
 				758E5F25222C857700D77169 /* HomeViewController.swift in Sources */,
+				758E5F6C222DFF4000D77169 /* ScheduleViewController.swift in Sources */,
 				758E5F68222DD2EB00D77169 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,9 +14,18 @@ class LogViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-//        LogTabBarItem.image = UIImage.fontAwesomeIcon(name: .ellipsisV, style: .solid, textColor: .gray, size: CGSize(width: 35, height: 35))
+
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(true, animated: animated)
+        super.viewWillAppear(animated)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(false, animated: animated)
+        super.viewWillDisappear(animated)
+    }
 
     /*
     // MARK: - Navigation
