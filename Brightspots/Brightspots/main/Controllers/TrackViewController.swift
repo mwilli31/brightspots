@@ -8,6 +8,7 @@
 
 import UIKit
 import AloeStackView
+import MaterialComponents.MaterialCards
 
 class TrackViewController: UIViewController {
 
@@ -45,11 +46,7 @@ class TrackViewController: UIViewController {
     }
     
     private func setUpRows() {
-        setUpDescriptionRow()
-        
-        setUpSwitchRow()
-        setUpHiddenRows()
-        setUpExpandingRowView()
+        setUpChartRow()
         setUpPhotoRow()
     }
     
@@ -59,6 +56,12 @@ class TrackViewController: UIViewController {
         label.numberOfLines = 0
         label.text = "This simple app shows some ways you can use AloeStackView to lay out a screen in your app."
         stackView.addRow(label)
+    }
+    
+    private func setUpChartRow() {
+        let simpleChartRow = SimpleChartRowView()
+        stackView.addRow(simpleChartRow)
+        simpleChartRow.heightAnchor.constraint(equalTo: simpleChartRow.widthAnchor, multiplier: 1.0).isActive = true
     }
     
     private func setUpSwitchRow() {

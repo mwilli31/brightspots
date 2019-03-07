@@ -45,7 +45,6 @@ class ScheduleViewController: UIViewController {
         
         setUpSwitchRow()
         setUpHiddenRows()
-//        setUpExpandingRowView()
         setUpPhotoRow()
     }
     

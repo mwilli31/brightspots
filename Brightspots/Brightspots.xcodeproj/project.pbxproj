@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		34A39241254931E0C9F4BEF4 /* Pods_BrightspotsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9DBB20B2C76428ED0C6C58B /* Pods_BrightspotsTests.framework */; };
+		7543C913222F47E80025D020 /* SimpleChartRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C912222F47E80025D020 /* SimpleChartRowView.swift */; };
+		7543C916222F5F250025D020 /* Examples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C915222F5F250025D020 /* Examples.swift */; };
 		758E5F23222C857700D77169 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E5F22222C857700D77169 /* AppDelegate.swift */; };
 		758E5F25222C857700D77169 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E5F24222C857700D77169 /* HomeViewController.swift */; };
 		758E5F27222C857700D77169 /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E5F26222C857700D77169 /* NetworkViewController.swift */; };
@@ -52,6 +54,8 @@
 		1EC2070A4BC9DAD99BE42A5C /* Pods-BrightspotsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrightspotsTests.release.xcconfig"; path = "Target Support Files/Pods-BrightspotsTests/Pods-BrightspotsTests.release.xcconfig"; sourceTree = "<group>"; };
 		26093ED7C4DE8B21B9B010DA /* Pods-BrightspotsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrightspotsTests.debug.xcconfig"; path = "Target Support Files/Pods-BrightspotsTests/Pods-BrightspotsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		638AF01D2076AFB87B927BF8 /* Pods_Brightspots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brightspots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7543C912222F47E80025D020 /* SimpleChartRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleChartRowView.swift; sourceTree = "<group>"; };
+		7543C915222F5F250025D020 /* Examples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Examples.swift; sourceTree = "<group>"; };
 		758E5F1F222C857700D77169 /* Brightspots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brightspots.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		758E5F22222C857700D77169 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		758E5F24222C857700D77169 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +113,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7543C914222F5E170025D020 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		758E5F16222C857700D77169 = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +176,7 @@
 		758E5F52222C877E00D77169 /* main */ = {
 			isa = PBXGroup;
 			children = (
+				7543C914222F5E170025D020 /* Model */,
 				758E5F5C222DBE1900D77169 /* Controllers */,
 				758E5F5B222DBE0500D77169 /* Views */,
 				758E5F28222C857700D77169 /* Main.storyboard */,
@@ -175,8 +187,10 @@
 		758E5F5B222DBE0500D77169 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7543C915222F5F250025D020 /* Examples.swift */,
 				758E5F64222DD2E200D77169 /* ExpandingRowView.swift */,
 				758E5F63222DD2E200D77169 /* SwitchRowView.swift */,
+				7543C912222F47E80025D020 /* SimpleChartRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -405,7 +419,9 @@
 				"${PODS_ROOT}/Target Support Files/Pods-Brightspots/Pods-Brightspots-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AloeStackView/AloeStackView.framework",
 				"${BUILT_PRODUCTS_DIR}/FontAwesome.swift/FontAwesome_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
 				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/ScrollableGraphView/ScrollableGraphView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -413,7 +429,9 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AloeStackView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesome_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ScrollableGraphView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -449,6 +467,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7543C916222F5F250025D020 /* Examples.swift in Sources */,
 				758E5F58222CD57600D77169 /* MainTabBarViewController.swift in Sources */,
 				758E5F6A222DDE9700D77169 /* TestViewController.swift in Sources */,
 				758E5F56222C881600D77169 /* ReportsViewController.swift in Sources */,
@@ -456,6 +475,7 @@
 				758E5F6E222E12CE00D77169 /* TrackViewController.swift in Sources */,
 				758E5F65222DD2E200D77169 /* SwitchRowView.swift in Sources */,
 				758E5F27222C857700D77169 /* NetworkViewController.swift in Sources */,
+				7543C913222F47E80025D020 /* SimpleChartRowView.swift in Sources */,
 				758E5F5A222CD82800D77169 /* LogViewController.swift in Sources */,
 				758E5F23222C857700D77169 /* AppDelegate.swift in Sources */,
 				758E5F25222C857700D77169 /* HomeViewController.swift in Sources */,
