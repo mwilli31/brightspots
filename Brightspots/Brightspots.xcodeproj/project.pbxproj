@@ -10,6 +10,35 @@
 		34A39241254931E0C9F4BEF4 /* Pods_BrightspotsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9DBB20B2C76428ED0C6C58B /* Pods_BrightspotsTests.framework */; };
 		7543C913222F47E80025D020 /* SimpleChartRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C912222F47E80025D020 /* SimpleChartRowView.swift */; };
 		7543C916222F5F250025D020 /* Examples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C915222F5F250025D020 /* Examples.swift */; };
+		7543C91C2231E0E80025D020 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C91B2231E0E80025D020 /* Constants.swift */; };
+		7543C91E2231E4530025D020 /* ColorSchemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C91D2231E4530025D020 /* ColorSchemes.swift */; };
+		7543C9202231EAC30025D020 /* SimpleChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C91F2231EAC30025D020 /* SimpleChart.swift */; };
+		7543C922223332890025D020 /* NightscoutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C921223332890025D020 /* NightscoutService.swift */; };
+		7543C926223333390025D020 /* NightscoutData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C925223333390025D020 /* NightscoutData.swift */; };
+		7543C92822336DE10025D020 /* Units.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C92722336DE10025D020 /* Units.swift */; };
+		7543C92A22336E0B0025D020 /* BloodSugarArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C92922336E0B0025D020 /* BloodSugarArrayExtension.swift */; };
+		7543C92C22336E300025D020 /* BloodSugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C92B22336E300025D020 /* BloodSugar.swift */; };
+		7543C92F22336EA80025D020 /* TimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C92E22336EA80025D020 /* TimeService.swift */; };
+		7543C93122336ED50025D020 /* UnitsConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C93022336ED50025D020 /* UnitsConverter.swift */; };
+		7543C93522336F220025D020 /* NightscoutDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C93422336F220025D020 /* NightscoutDataRepository.swift */; };
+		7543C93722336F4B0025D020 /* UserDefaultsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C93622336F4B0025D020 /* UserDefaultsRepository.swift */; };
+		7543C93922336F910025D020 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C93822336F910025D020 /* Helpers.swift */; };
+		7543C93C22336FCF0025D020 /* UserDefaultsValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C93B22336FCF0025D020 /* UserDefaultsValue.swift */; };
+		7543C93E22336FFD0025D020 /* UserDefaultsValueGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C93D22336FFD0025D020 /* UserDefaultsValueGroups.swift */; };
+		7543C940223370480025D020 /* ObservationToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C93F223370480025D020 /* ObservationToken.swift */; };
+		7543C9432233715C0025D020 /* FloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C9422233715C0025D020 /* FloatExtension.swift */; };
+		7543C945223371710025D020 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C944223371710025D020 /* StringExtension.swift */; };
+		7543C9472233718D0025D020 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C9462233718C0025D020 /* DoubleExtension.swift */; };
+		7543C9492233721B0025D020 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C9482233721B0025D020 /* AppConstants.swift */; };
+		7543C94B2233728B0025D020 /* AnyConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C94A2233728B0025D020 /* AnyConvertible.swift */; };
+		7543C94D223372A60025D020 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C94C223372A60025D020 /* ArrayExtension.swift */; };
+		7543C94F223373AB0025D020 /* NightscoutCacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C94E223373AB0025D020 /* NightscoutCacheService.swift */; };
+		7543C951223377370025D020 /* PredictionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C950223377370025D020 /* PredictionService.swift */; };
+		7543C954223378790025D020 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C953223378790025D020 /* Matrix.swift */; };
+		7543C956223378970025D020 /* Matrix+Append.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C955223378970025D020 /* Matrix+Append.swift */; };
+		7543C958223378B70025D020 /* Matrix+Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C957223378B70025D020 /* Matrix+Description.swift */; };
+		7543C95A223378D10025D020 /* Regression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C959223378D10025D020 /* Regression.swift */; };
+		7543C95C223378E20025D020 /* RegressionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C95B223378E20025D020 /* RegressionHelper.swift */; };
 		758E5F23222C857700D77169 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E5F22222C857700D77169 /* AppDelegate.swift */; };
 		758E5F25222C857700D77169 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E5F24222C857700D77169 /* HomeViewController.swift */; };
 		758E5F27222C857700D77169 /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E5F26222C857700D77169 /* NetworkViewController.swift */; };
@@ -24,7 +53,6 @@
 		758E5F65222DD2E200D77169 /* SwitchRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E5F63222DD2E200D77169 /* SwitchRowView.swift */; };
 		758E5F66222DD2E200D77169 /* ExpandingRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E5F64222DD2E200D77169 /* ExpandingRowView.swift */; };
 		758E5F68222DD2EB00D77169 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E5F67222DD2EB00D77169 /* PhotoViewController.swift */; };
-		758E5F6A222DDE9700D77169 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E5F69222DDE9700D77169 /* TestViewController.swift */; };
 		758E5F6C222DFF4000D77169 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E5F6B222DFF4000D77169 /* ScheduleViewController.swift */; };
 		758E5F6E222E12CE00D77169 /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E5F6D222E12CE00D77169 /* TrackViewController.swift */; };
 		BA7D9CDBD631E3B327E133F8 /* Pods_Brightspots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 638AF01D2076AFB87B927BF8 /* Pods_Brightspots.framework */; };
@@ -56,6 +84,35 @@
 		638AF01D2076AFB87B927BF8 /* Pods_Brightspots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brightspots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7543C912222F47E80025D020 /* SimpleChartRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleChartRowView.swift; sourceTree = "<group>"; };
 		7543C915222F5F250025D020 /* Examples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Examples.swift; sourceTree = "<group>"; };
+		7543C91B2231E0E80025D020 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7543C91D2231E4530025D020 /* ColorSchemes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSchemes.swift; sourceTree = "<group>"; };
+		7543C91F2231EAC30025D020 /* SimpleChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleChart.swift; sourceTree = "<group>"; };
+		7543C921223332890025D020 /* NightscoutService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightscoutService.swift; sourceTree = "<group>"; };
+		7543C925223333390025D020 /* NightscoutData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightscoutData.swift; sourceTree = "<group>"; };
+		7543C92722336DE10025D020 /* Units.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Units.swift; sourceTree = "<group>"; };
+		7543C92922336E0B0025D020 /* BloodSugarArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodSugarArrayExtension.swift; sourceTree = "<group>"; };
+		7543C92B22336E300025D020 /* BloodSugar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodSugar.swift; sourceTree = "<group>"; };
+		7543C92E22336EA80025D020 /* TimeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeService.swift; sourceTree = "<group>"; };
+		7543C93022336ED50025D020 /* UnitsConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsConverter.swift; sourceTree = "<group>"; };
+		7543C93422336F220025D020 /* NightscoutDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightscoutDataRepository.swift; sourceTree = "<group>"; };
+		7543C93622336F4B0025D020 /* UserDefaultsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsRepository.swift; sourceTree = "<group>"; };
+		7543C93822336F910025D020 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		7543C93B22336FCF0025D020 /* UserDefaultsValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsValue.swift; sourceTree = "<group>"; };
+		7543C93D22336FFD0025D020 /* UserDefaultsValueGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsValueGroups.swift; sourceTree = "<group>"; };
+		7543C93F223370480025D020 /* ObservationToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationToken.swift; sourceTree = "<group>"; };
+		7543C9422233715C0025D020 /* FloatExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatExtension.swift; sourceTree = "<group>"; };
+		7543C944223371710025D020 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		7543C9462233718C0025D020 /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		7543C9482233721B0025D020 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		7543C94A2233728B0025D020 /* AnyConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyConvertible.swift; sourceTree = "<group>"; };
+		7543C94C223372A60025D020 /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		7543C94E223373AB0025D020 /* NightscoutCacheService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightscoutCacheService.swift; sourceTree = "<group>"; };
+		7543C950223377370025D020 /* PredictionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionService.swift; sourceTree = "<group>"; };
+		7543C953223378790025D020 /* Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		7543C955223378970025D020 /* Matrix+Append.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Matrix+Append.swift"; sourceTree = "<group>"; };
+		7543C957223378B70025D020 /* Matrix+Description.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Matrix+Description.swift"; sourceTree = "<group>"; };
+		7543C959223378D10025D020 /* Regression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regression.swift; sourceTree = "<group>"; };
+		7543C95B223378E20025D020 /* RegressionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegressionHelper.swift; sourceTree = "<group>"; };
 		758E5F1F222C857700D77169 /* Brightspots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brightspots.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		758E5F22222C857700D77169 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		758E5F24222C857700D77169 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -76,7 +133,6 @@
 		758E5F63222DD2E200D77169 /* SwitchRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchRowView.swift; sourceTree = "<group>"; };
 		758E5F64222DD2E200D77169 /* ExpandingRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandingRowView.swift; sourceTree = "<group>"; };
 		758E5F67222DD2EB00D77169 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
-		758E5F69222DDE9700D77169 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TestViewController.swift; path = Brightspots/main/Controllers/TestViewController.swift; sourceTree = "<group>"; };
 		758E5F6B222DFF4000D77169 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
 		758E5F6D222E12CE00D77169 /* TrackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
 		C55B4257CD127AC93816CAEF /* Pods-Brightspots.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brightspots.debug.xcconfig"; path = "Target Support Files/Pods-Brightspots/Pods-Brightspots.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,10 +176,121 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		7543C9172231E06A0025D020 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7543C923223332FE0025D020 /* Nightscout */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7543C9192231E0940025D020 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		7543C91A2231E0C50025D020 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				758E5F22222C857700D77169 /* AppDelegate.swift */,
+				758E5F2D222C857900D77169 /* LaunchScreen.storyboard */,
+				7543C91B2231E0E80025D020 /* Constants.swift */,
+				7543C91D2231E4530025D020 /* ColorSchemes.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		7543C923223332FE0025D020 /* Nightscout */ = {
+			isa = PBXGroup;
+			children = (
+				7543C9522233785D0025D020 /* Regression */,
+				7543C921223332890025D020 /* NightscoutService.swift */,
+				7543C94E223373AB0025D020 /* NightscoutCacheService.swift */,
+				7543C93022336ED50025D020 /* UnitsConverter.swift */,
+				7543C92E22336EA80025D020 /* TimeService.swift */,
+				7543C950223377370025D020 /* PredictionService.swift */,
+			);
+			path = Nightscout;
+			sourceTree = "<group>";
+		};
+		7543C9242233331C0025D020 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7543C92D22336E8A0025D020 /* Nightscout */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7543C92D22336E8A0025D020 /* Nightscout */ = {
+			isa = PBXGroup;
+			children = (
+				7543C925223333390025D020 /* NightscoutData.swift */,
+				7543C92722336DE10025D020 /* Units.swift */,
+				7543C92922336E0B0025D020 /* BloodSugarArrayExtension.swift */,
+				7543C92B22336E300025D020 /* BloodSugar.swift */,
+			);
+			path = Nightscout;
+			sourceTree = "<group>";
+		};
+		7543C93222336EFC0025D020 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				7543C93322336F070025D020 /* Nightscout */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		7543C93322336F070025D020 /* Nightscout */ = {
+			isa = PBXGroup;
+			children = (
+				7543C93422336F220025D020 /* NightscoutDataRepository.swift */,
+				7543C93622336F4B0025D020 /* UserDefaultsRepository.swift */,
+			);
+			path = Nightscout;
+			sourceTree = "<group>";
+		};
+		7543C93A22336FB60025D020 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7543C941223370520025D020 /* Nightscout */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7543C941223370520025D020 /* Nightscout */ = {
+			isa = PBXGroup;
+			children = (
+				7543C93822336F910025D020 /* Helpers.swift */,
+				7543C93B22336FCF0025D020 /* UserDefaultsValue.swift */,
+				7543C93D22336FFD0025D020 /* UserDefaultsValueGroups.swift */,
+				7543C93F223370480025D020 /* ObservationToken.swift */,
+				7543C9422233715C0025D020 /* FloatExtension.swift */,
+				7543C944223371710025D020 /* StringExtension.swift */,
+				7543C9462233718C0025D020 /* DoubleExtension.swift */,
+				7543C9482233721B0025D020 /* AppConstants.swift */,
+				7543C94A2233728B0025D020 /* AnyConvertible.swift */,
+				7543C94C223372A60025D020 /* ArrayExtension.swift */,
+			);
+			path = Nightscout;
+			sourceTree = "<group>";
+		};
+		7543C9522233785D0025D020 /* Regression */ = {
+			isa = PBXGroup;
+			children = (
+				7543C953223378790025D020 /* Matrix.swift */,
+				7543C955223378970025D020 /* Matrix+Append.swift */,
+				7543C957223378B70025D020 /* Matrix+Description.swift */,
+				7543C959223378D10025D020 /* Regression.swift */,
+				7543C95B223378E20025D020 /* RegressionHelper.swift */,
+			);
+			path = Regression;
+			sourceTree = "<group>";
+		};
 		758E5F16222C857700D77169 = {
 			isa = PBXGroup;
 			children = (
-				758E5F69222DDE9700D77169 /* TestViewController.swift */,
 				758E5F21222C857700D77169 /* Brightspots */,
 				758E5F38222C857900D77169 /* BrightspotsTests */,
 				758E5F43222C857900D77169 /* BrightspotsUITests */,
@@ -146,10 +313,14 @@
 		758E5F21222C857700D77169 /* Brightspots */ = {
 			isa = PBXGroup;
 			children = (
-				758E5F22222C857700D77169 /* AppDelegate.swift */,
-				758E5F52222C877E00D77169 /* main */,
+				7543C91A2231E0C50025D020 /* General */,
+				7543C93A22336FB60025D020 /* Helpers */,
+				7543C93222336EFC0025D020 /* Repository */,
+				7543C9242233331C0025D020 /* Model */,
+				7543C9172231E06A0025D020 /* Services */,
+				758E5F52222C877E00D77169 /* Main */,
+				7543C9192231E0940025D020 /* Animations */,
 				758E5F2B222C857900D77169 /* Assets.xcassets */,
-				758E5F2D222C857900D77169 /* LaunchScreen.storyboard */,
 				758E5F30222C857900D77169 /* Info.plist */,
 			);
 			path = Brightspots;
@@ -173,7 +344,7 @@
 			path = BrightspotsUITests;
 			sourceTree = "<group>";
 		};
-		758E5F52222C877E00D77169 /* main */ = {
+		758E5F52222C877E00D77169 /* Main */ = {
 			isa = PBXGroup;
 			children = (
 				7543C914222F5E170025D020 /* Model */,
@@ -181,13 +352,14 @@
 				758E5F5B222DBE0500D77169 /* Views */,
 				758E5F28222C857700D77169 /* Main.storyboard */,
 			);
-			path = main;
+			path = Main;
 			sourceTree = "<group>";
 		};
 		758E5F5B222DBE0500D77169 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				7543C915222F5F250025D020 /* Examples.swift */,
+				7543C91F2231EAC30025D020 /* SimpleChart.swift */,
 				758E5F64222DD2E200D77169 /* ExpandingRowView.swift */,
 				758E5F63222DD2E200D77169 /* SwitchRowView.swift */,
 				7543C912222F47E80025D020 /* SimpleChartRowView.swift */,
@@ -467,20 +639,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7543C93722336F4B0025D020 /* UserDefaultsRepository.swift in Sources */,
+				7543C945223371710025D020 /* StringExtension.swift in Sources */,
+				7543C92F22336EA80025D020 /* TimeService.swift in Sources */,
+				7543C91E2231E4530025D020 /* ColorSchemes.swift in Sources */,
 				7543C916222F5F250025D020 /* Examples.swift in Sources */,
+				7543C93522336F220025D020 /* NightscoutDataRepository.swift in Sources */,
+				7543C93E22336FFD0025D020 /* UserDefaultsValueGroups.swift in Sources */,
+				7543C958223378B70025D020 /* Matrix+Description.swift in Sources */,
 				758E5F58222CD57600D77169 /* MainTabBarViewController.swift in Sources */,
-				758E5F6A222DDE9700D77169 /* TestViewController.swift in Sources */,
+				7543C94B2233728B0025D020 /* AnyConvertible.swift in Sources */,
+				7543C956223378970025D020 /* Matrix+Append.swift in Sources */,
+				7543C9472233718D0025D020 /* DoubleExtension.swift in Sources */,
+				7543C92C22336E300025D020 /* BloodSugar.swift in Sources */,
+				7543C9432233715C0025D020 /* FloatExtension.swift in Sources */,
 				758E5F56222C881600D77169 /* ReportsViewController.swift in Sources */,
 				758E5F66222DD2E200D77169 /* ExpandingRowView.swift in Sources */,
+				7543C954223378790025D020 /* Matrix.swift in Sources */,
+				7543C93C22336FCF0025D020 /* UserDefaultsValue.swift in Sources */,
+				7543C95C223378E20025D020 /* RegressionHelper.swift in Sources */,
+				7543C91C2231E0E80025D020 /* Constants.swift in Sources */,
+				7543C95A223378D10025D020 /* Regression.swift in Sources */,
 				758E5F6E222E12CE00D77169 /* TrackViewController.swift in Sources */,
+				7543C93122336ED50025D020 /* UnitsConverter.swift in Sources */,
 				758E5F65222DD2E200D77169 /* SwitchRowView.swift in Sources */,
 				758E5F27222C857700D77169 /* NetworkViewController.swift in Sources */,
+				7543C951223377370025D020 /* PredictionService.swift in Sources */,
+				7543C94F223373AB0025D020 /* NightscoutCacheService.swift in Sources */,
 				7543C913222F47E80025D020 /* SimpleChartRowView.swift in Sources */,
 				758E5F5A222CD82800D77169 /* LogViewController.swift in Sources */,
 				758E5F23222C857700D77169 /* AppDelegate.swift in Sources */,
+				7543C940223370480025D020 /* ObservationToken.swift in Sources */,
+				7543C92822336DE10025D020 /* Units.swift in Sources */,
+				7543C94D223372A60025D020 /* ArrayExtension.swift in Sources */,
+				7543C922223332890025D020 /* NightscoutService.swift in Sources */,
+				7543C9492233721B0025D020 /* AppConstants.swift in Sources */,
+				7543C9202231EAC30025D020 /* SimpleChart.swift in Sources */,
 				758E5F25222C857700D77169 /* HomeViewController.swift in Sources */,
+				7543C93922336F910025D020 /* Helpers.swift in Sources */,
 				758E5F6C222DFF4000D77169 /* ScheduleViewController.swift in Sources */,
 				758E5F68222DD2EB00D77169 /* PhotoViewController.swift in Sources */,
+				7543C92A22336E0B0025D020 /* BloodSugarArrayExtension.swift in Sources */,
+				7543C926223333390025D020 /* NightscoutData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,6 +11,8 @@ target 'Brightspots' do
   pod 'PureLayout'
   pod 'ScrollableGraphView'
   pod 'MaterialComponents/Cards'
+  pod 'MaterialComponents/schemes/Color'
+  pod 'MaterialComponents/Cards+ColorThemer'
 
   target 'BrightspotsTests' do
     inherit! :search_paths

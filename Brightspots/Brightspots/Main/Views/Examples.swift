@@ -22,8 +22,9 @@ class Examples : ScrollableGraphViewDataSource {
     private lazy var pinkLinePlotData: [Double] =  self.generateRandomData(self.numberOfDataItems, max: 100, shouldIncludeOutliers: false)
     
     // Data for graphs with multiple plots
-    private lazy var blueLinePlotData: [Double] = self.generateRandomData(self.numberOfDataItems, max: 50)
-    private lazy var orangeLinePlotData: [Double] =  self.generateRandomData(self.numberOfDataItems, max: 40, shouldIncludeOutliers: false)
+    private lazy var blueLinePlotData: [Double] = self.generateRandomData(self.numberOfDataItems, max: 200)
+    private lazy var orangeLinePlotData: [Double] =  self.generateRandomData(self.numberOfDataItems, max: 200, shouldIncludeOutliers: false)
+    private lazy var rangeLinePlotData: [Double] =  self.generateRangeData(self.numberOfDataItems)
     
     // Labels for the x-axis
     
@@ -63,6 +64,8 @@ class Examples : ScrollableGraphViewDataSource {
             return orangeLinePlotData[pointIndex]
         case "multiOrangeSquare":
             return orangeLinePlotData[pointIndex]
+        case "range":
+            return rangeLinePlotData[pointIndex]
             
         default:
             return 0
@@ -452,6 +455,17 @@ class Examples : ScrollableGraphViewDataSource {
         
         orangeLinePlot.adaptAnimationType = ScrollableGraphViewAnimationType.elastic
         
+        
+        let rangeLinePlot = LinePlot(identifier: "range")
+        
+        rangeLinePlot.lineWidth = 40
+        rangeLinePlot.lineColor = UIColor.white.withAlphaComponent(0.3)
+        rangeLinePlot.lineStyle = ScrollableGraphViewLineStyle.smooth
+        
+        rangeLinePlot.shouldFill = false
+        rangeLinePlot.fillType = ScrollableGraphViewFillType.gradient
+        rangeLinePlot.fillColor = UIColor.white.withAlphaComponent(0.1)
+        
         // Customise the reference lines.
         let referenceLines = ReferenceLines()
         
@@ -461,12 +475,28 @@ class Examples : ScrollableGraphViewDataSource {
         
         referenceLines.dataPointLabelColor = UIColor.black.withAlphaComponent(1)
         
+        let referenceLinesRange = ReferenceLines()
+        
+        referenceLinesRange.referenceLineLabelFont = UIFont.boldSystemFont(ofSize: 12)
+        referenceLinesRange.referenceLineColor = UIColor.gray.withAlphaComponent(0.8)
+        referenceLinesRange.referenceLineThickness = 1
+        referenceLinesRange.referenceLineLabelColor = UIColor.white
+//        referenceLinesRange.positionType = ReferenceLinePositioningType.absolute
+//        referenceLinesRange.absolutePositions = [60,120]
+        
         // All other graph customisation is done in Interface Builder,
         // e.g, the background colour would be set in interface builder rather than in code.
-        // graphView.backgroundFillColor = hexStringToUIColor(hex: "#333333")
+        graphView.backgroundFillColor = hexStringToUIColor(hex: "#6200EE")
+        graphView.shouldAdaptRange = false
+        graphView.shouldRangeAlwaysStartAtZero = true
+        graphView.rangeMax = 400
+        graphView.topMargin = 10.0
+        graphView.bottomMargin = 10.0
         
         // Add everything to the graph.
-        graphView.addReferenceLines(referenceLines: referenceLines)
+//        graphView.addReferenceLines(referenceLines: referenceLines)
+        graphView.addReferenceLines(referenceLines: referenceLinesRange)
+        graphView.addPlot(plot: rangeLinePlot)
         graphView.addPlot(plot: blueLinePlot)
         graphView.addPlot(plot: orangeLinePlot)
         return graphView
@@ -504,6 +534,16 @@ class Examples : ScrollableGraphViewDataSource {
                     randomNumber *= 3
                 }
             }
+            
+            data.append(randomNumber)
+        }
+        return data
+    }
+    
+    private func generateRangeData(_ numberOfItems: Int) -> [Double] {
+        var data = [Double]()
+        for _ in 0 ..< numberOfItems {
+            let randomNumber = Double(100)
             
             data.append(randomNumber)
         }

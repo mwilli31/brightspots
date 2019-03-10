@@ -14,6 +14,8 @@
 #import "MDCCard.h"
 #import "MDCCardCollectionCell.h"
 #import "UICollectionViewController+MDCCardReordering.h"
+#import "MaterialCards+ColorThemer.h"
+#import "MDCCardsColorThemer.h"
 #import "MaterialCards+Private.h"
 #import "MDCCard+Private.h"
 #import "MDCCardCollectionCell+Private.h"
@@ -47,6 +49,11 @@
 #import "MaterialIcons+ic_check_circle.h"
 #import "MaterialMath.h"
 #import "MDCMath.h"
+#import "MaterialColorScheme.h"
+#import "MDCLegacyColorScheme.h"
+#import "MDCLegacyTonalColorScheme.h"
+#import "MDCLegacyTonalPalette.h"
+#import "MDCSemanticColorScheme.h"
 
 FOUNDATION_EXPORT double MaterialComponentsVersionNumber;
 FOUNDATION_EXPORT const unsigned char MaterialComponentsVersionString[];

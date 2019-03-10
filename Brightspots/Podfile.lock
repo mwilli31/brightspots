@@ -8,6 +8,9 @@ PODS:
     - MaterialComponents/private/Math
     - MaterialComponents/ShadowLayer
     - MaterialComponents/Shapes
+  - "MaterialComponents/Cards+ColorThemer (78.0.1)":
+    - MaterialComponents/Cards
+    - MaterialComponents/schemes/Color
   - "MaterialComponents/Cards+Private (78.0.1)"
   - MaterialComponents/Ink (78.0.1):
     - MaterialComponents/private/Math
@@ -15,6 +18,7 @@ PODS:
   - MaterialComponents/private/Icons/ic_check_circle (78.0.1):
     - MaterialComponents/private/Icons/Base
   - MaterialComponents/private/Math (78.0.1)
+  - MaterialComponents/schemes/Color (78.0.1)
   - MaterialComponents/ShadowElevations (78.0.1)
   - MaterialComponents/ShadowLayer (78.0.1):
     - MaterialComponents/ShadowElevations
@@ -28,6 +32,8 @@ DEPENDENCIES:
   - AloeStackView
   - FontAwesome.swift
   - MaterialComponents/Cards
+  - "MaterialComponents/Cards+ColorThemer"
+  - MaterialComponents/schemes/Color
   - PureLayout
   - ScrollableGraphView
 
@@ -46,6 +52,6 @@ SPEC CHECKSUMS:
   PureLayout: f08c01b8dec00bb14a1fefa3de4c7d9c265df85e
   ScrollableGraphView: 4af35d4ea9ecdec665d34a74da51da161ddff8ac
 
-PODFILE CHECKSUM: 1cc61b1f020da68c34cf50a9ff4d6632a597e7d1
+PODFILE CHECKSUM: 0d80058529db565e5fbc08d910876a851491ca37
 
 COCOAPODS: 1.6.1
