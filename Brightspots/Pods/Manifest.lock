@@ -1,5 +1,7 @@
 PODS:
   - AloeStackView (1.0.1)
+  - Auth0 (1.14.1):
+    - SimpleKeychain
   - FontAwesome.swift (1.5.1)
   - MaterialComponents/Cards (78.0.1):
     - "MaterialComponents/Cards+Private"
@@ -25,33 +27,43 @@ PODS:
   - MaterialComponents/Shapes (78.0.1):
     - MaterialComponents/private/Math
     - MaterialComponents/ShadowLayer
+  - paper-onboarding (5.0.0)
   - PureLayout (3.1.4)
   - ScrollableGraphView (4.0.6)
+  - SimpleKeychain (0.8.1)
 
 DEPENDENCIES:
   - AloeStackView
+  - Auth0 (~> 1.13)
   - FontAwesome.swift
   - MaterialComponents/Cards
   - "MaterialComponents/Cards+ColorThemer"
   - MaterialComponents/schemes/Color
+  - paper-onboarding
   - PureLayout
   - ScrollableGraphView
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AloeStackView
+    - Auth0
     - FontAwesome.swift
     - MaterialComponents
+    - paper-onboarding
     - PureLayout
     - ScrollableGraphView
+    - SimpleKeychain
 
 SPEC CHECKSUMS:
   AloeStackView: d22c006da4510db5e220968234174654b5ed6ea5
+  Auth0: 064dc115cd99eec7334d1cab565f4d974eecac4d
   FontAwesome.swift: 9b5a9b9adb6d48b2d37c1e789889ef377cfbc205
   MaterialComponents: 1e1d1a8356bbf2b80f6a0aa32018cda8ac8065a5
+  paper-onboarding: a2e3a710fd27ac0b5635ec5490660e7ec09289b5
   PureLayout: f08c01b8dec00bb14a1fefa3de4c7d9c265df85e
   ScrollableGraphView: 4af35d4ea9ecdec665d34a74da51da161ddff8ac
+  SimpleKeychain: e2485c28d82fcece35e9e41faeac42ebfe614815
 
-PODFILE CHECKSUM: 0d80058529db565e5fbc08d910876a851491ca37
+PODFILE CHECKSUM: 186fcaa3cd56bd790a38dcbcd2702dca96ab80a3
 
 COCOAPODS: 1.6.1

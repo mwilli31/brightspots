@@ -13,6 +13,9 @@ target 'Brightspots' do
   pod 'MaterialComponents/Cards'
   pod 'MaterialComponents/schemes/Color'
   pod 'MaterialComponents/Cards+ColorThemer'
+  pod 'Auth0', '~> 1.13'
+  pod 'paper-onboarding'
+
 
   target 'BrightspotsTests' do
     inherit! :search_paths

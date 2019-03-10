@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Auth0.plist
+   Brightspots
+
+   Created by Michael Williams on 3/10/19.
+   Copyright (c) 2019 Michael Williams. All rights reserved.
+-->
+<plist version="1.0">
+<dict>
+  <key>ClientId</key>
+  <string>AU6PHoTz1FiKV3WlEVM1zj4ha753vMOv</string>
+  <key>Domain</key>
+  <string>brightspots.auth0.com</string>
+</dict>
+</plist>

@@ -23,6 +23,9 @@ var LINE_CHART_BIG_GLUCOSE_MID = CGFloat(135)
 struct Constants {
     
     struct Font {
+        static let INTRO_TITLE = UIFont.systemFont(ofSize: 32, weight: UIFont.Weight.thin)
+        static let INTRO_DESCRIPTION = UIFont.systemFont(ofSize: 18)
+
         static let LINE_CHART_LABEL_FONT = UIFont.systemFont(ofSize: 14)
         static let CURRENT_BG_LABEL_FONT = UIFont.systemFont(ofSize: 48, weight: UIFont.Weight.thin)
         static let CURRENT_BG_UNIT_LABEL_FONT = UIFont.systemFont(ofSize: 20, weight: UIFont.Weight.thin)

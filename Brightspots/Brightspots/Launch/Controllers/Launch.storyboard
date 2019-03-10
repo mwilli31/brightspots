@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EUa-a0-Enc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Launch View Controller-->
+        <scene sceneID="lo8-Go-3Bd">
+            <objects>
+                <viewController id="EUa-a0-Enc" customClass="LaunchViewController" customModule="Brightspots" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qbZ-1M-7Gg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wcX-Hm-xFM">
+                                <rect key="frame" x="231" y="45" width="119" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Get Started">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="getStartedAction:" destination="EUa-a0-Enc" eventType="touchUpInside" id="HFM-nG-Voa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="YUW-un-ahh" firstAttribute="trailing" secondItem="wcX-Hm-xFM" secondAttribute="trailing" constant="25" id="SYz-PP-DGD"/>
+                            <constraint firstItem="wcX-Hm-xFM" firstAttribute="top" secondItem="YUW-un-ahh" secondAttribute="top" constant="25" id="lwt-pF-dIK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="YUW-un-ahh"/>
+                    </view>
+                    <connections>
+                        <outlet property="getStartedButton" destination="wcX-Hm-xFM" id="Gne-VS-1hD"/>
+                        <segue destination="ms5-gq-5f4" kind="showDetail" identifier="mainSegue" id="rF2-5g-1CH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vbi-cP-D2u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="348" y="-149"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="3yN-4S-uXW">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="ms5-gq-5f4" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VQ5-mA-ZeM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1174" y="-150"/>
+        </scene>
+    </scenes>
+</document>
