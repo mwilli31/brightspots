@@ -3,6 +3,30 @@ PODS:
   - Auth0 (1.14.1):
     - SimpleKeychain
   - FontAwesome.swift (1.5.1)
+  - MaterialComponents/Buttons (78.0.1):
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Shapes
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - "MaterialComponents/Buttons+ButtonThemer (78.0.1)":
+    - MaterialComponents/Buttons
+    - "MaterialComponents/Buttons+ColorThemer"
+    - "MaterialComponents/Buttons+ShapeThemer"
+    - "MaterialComponents/Buttons+TypographyThemer"
+    - MaterialComponents/Palettes
+  - "MaterialComponents/Buttons+ColorThemer (78.0.1)":
+    - MaterialComponents/Buttons
+    - MaterialComponents/schemes/Color
+  - "MaterialComponents/Buttons+ShapeThemer (78.0.1)":
+    - MaterialComponents/Buttons
+    - MaterialComponents/schemes/Shape
+  - "MaterialComponents/Buttons+TypographyThemer (78.0.1)":
+    - MaterialComponents/Buttons
+    - MaterialComponents/schemes/Typography
   - MaterialComponents/Cards (78.0.1):
     - "MaterialComponents/Cards+Private"
     - MaterialComponents/Ink
@@ -16,17 +40,31 @@ PODS:
   - "MaterialComponents/Cards+Private (78.0.1)"
   - MaterialComponents/Ink (78.0.1):
     - MaterialComponents/private/Math
+  - MaterialComponents/Palettes (78.0.1)
+  - MaterialComponents/private/Application (78.0.1)
   - MaterialComponents/private/Icons/Base (78.0.1)
   - MaterialComponents/private/Icons/ic_check_circle (78.0.1):
     - MaterialComponents/private/Icons/Base
   - MaterialComponents/private/Math (78.0.1)
   - MaterialComponents/schemes/Color (78.0.1)
+  - MaterialComponents/schemes/Shape (78.0.1):
+    - MaterialComponents/ShapeLibrary
+    - MaterialComponents/Shapes
+  - MaterialComponents/schemes/Typography (78.0.1)
   - MaterialComponents/ShadowElevations (78.0.1)
   - MaterialComponents/ShadowLayer (78.0.1):
     - MaterialComponents/ShadowElevations
+  - MaterialComponents/ShapeLibrary (78.0.1):
+    - MaterialComponents/private/Math
+    - MaterialComponents/Shapes
   - MaterialComponents/Shapes (78.0.1):
     - MaterialComponents/private/Math
     - MaterialComponents/ShadowLayer
+  - MaterialComponents/Typography (78.0.1):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+  - MDFTextAccessibility (2.0.0)
   - paper-onboarding (5.0.0)
   - PureLayout (3.1.4)
   - ScrollableGraphView (4.0.6)
@@ -34,8 +72,12 @@ PODS:
 
 DEPENDENCIES:
   - AloeStackView
-  - Auth0 (~> 1.13)
+  - Auth0
   - FontAwesome.swift
+  - MaterialComponents/Buttons
+  - "MaterialComponents/Buttons+ButtonThemer"
+  - "MaterialComponents/Buttons+ColorThemer"
+  - "MaterialComponents/Buttons+ShapeThemer"
   - MaterialComponents/Cards
   - "MaterialComponents/Cards+ColorThemer"
   - MaterialComponents/schemes/Color
@@ -49,6 +91,8 @@ SPEC REPOS:
     - Auth0
     - FontAwesome.swift
     - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
     - paper-onboarding
     - PureLayout
     - ScrollableGraphView
@@ -59,11 +103,13 @@ SPEC CHECKSUMS:
   Auth0: 064dc115cd99eec7334d1cab565f4d974eecac4d
   FontAwesome.swift: 9b5a9b9adb6d48b2d37c1e789889ef377cfbc205
   MaterialComponents: 1e1d1a8356bbf2b80f6a0aa32018cda8ac8065a5
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
   paper-onboarding: a2e3a710fd27ac0b5635ec5490660e7ec09289b5
   PureLayout: f08c01b8dec00bb14a1fefa3de4c7d9c265df85e
   ScrollableGraphView: 4af35d4ea9ecdec665d34a74da51da161ddff8ac
   SimpleKeychain: e2485c28d82fcece35e9e41faeac42ebfe614815
 
-PODFILE CHECKSUM: 186fcaa3cd56bd790a38dcbcd2702dca96ab80a3
+PODFILE CHECKSUM: ced320c30076ff694e860b5893252439b4f52985
 
 COCOAPODS: 1.6.1

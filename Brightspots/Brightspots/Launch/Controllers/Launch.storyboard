@@ -18,40 +18,57 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wcX-Hm-xFM">
-                                <rect key="frame" x="231" y="45" width="119" height="41"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Get Started">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="getStartedAction:" destination="EUa-a0-Enc" eventType="touchUpInside" id="HFM-nG-Voa"/>
-                                </connections>
-                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-text" translatesAutoresizingMaskIntoConstraints="NO" id="Ov9-NL-isF">
+                                <rect key="frame" x="50" y="139" width="275" height="334"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="334" id="e3m-Yc-wqU"/>
+                                    <constraint firstAttribute="width" constant="275" id="iKB-Oc-yc9"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="YUW-un-ahh" firstAttribute="trailing" secondItem="wcX-Hm-xFM" secondAttribute="trailing" constant="25" id="SYz-PP-DGD"/>
-                            <constraint firstItem="wcX-Hm-xFM" firstAttribute="top" secondItem="YUW-un-ahh" secondAttribute="top" constant="25" id="lwt-pF-dIK"/>
+                            <constraint firstItem="Ov9-NL-isF" firstAttribute="top" secondItem="YUW-un-ahh" secondAttribute="top" constant="119" id="6sB-Yu-QGQ"/>
+                            <constraint firstItem="Ov9-NL-isF" firstAttribute="centerX" secondItem="qbZ-1M-7Gg" secondAttribute="centerX" id="n1g-w7-6eL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="YUW-un-ahh"/>
                     </view>
                     <connections>
-                        <outlet property="getStartedButton" destination="wcX-Hm-xFM" id="Gne-VS-1hD"/>
-                        <segue destination="ms5-gq-5f4" kind="showDetail" identifier="mainSegue" id="rF2-5g-1CH"/>
+                        <segue destination="ms5-gq-5f4" kind="show" identifier="signUpSegue" animates="NO" id="rF2-5g-1CH"/>
+                        <segue destination="AET-r3-jFp" kind="show" identifier="mainSegue" animates="NO" id="gUg-Ok-h93"/>
+                        <segue destination="WWi-hn-qaQ" kind="show" identifier="loginSegue" animates="NO" id="BRT-hO-Xpb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vbi-cP-D2u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="348" y="-149"/>
         </scene>
+        <!--Login-->
+        <scene sceneID="dGi-O7-0Ys">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Login" id="WWi-hn-qaQ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="atJ-Ed-6p1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1191" y="-138"/>
+        </scene>
         <!--Main-->
+        <scene sceneID="ORJ-nq-LJM">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="AET-r3-jFp" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z8y-Jq-sfo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1163" y="-61"/>
+        </scene>
+        <!--Signup-->
         <scene sceneID="3yN-4S-uXW">
             <objects>
-                <viewControllerPlaceholder storyboardName="Main" id="ms5-gq-5f4" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Signup" id="ms5-gq-5f4" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VQ5-mA-ZeM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1174" y="-150"/>
+            <point key="canvasLocation" x="1174" y="-236"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logo-text" width="1554" height="1554"/>
+    </resources>
 </document>

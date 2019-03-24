@@ -10,10 +10,14 @@ target 'Brightspots' do
   pod 'AloeStackView'
   pod 'PureLayout'
   pod 'ScrollableGraphView'
+  pod 'MaterialComponents/Buttons'
+  pod 'MaterialComponents/Buttons+ColorThemer'
+  pod 'MaterialComponents/Buttons+ShapeThemer'
+  pod 'MaterialComponents/Buttons+ButtonThemer'
   pod 'MaterialComponents/Cards'
   pod 'MaterialComponents/schemes/Color'
   pod 'MaterialComponents/Cards+ColorThemer'
-  pod 'Auth0', '~> 1.13'
+  pod 'Auth0'
   pod 'paper-onboarding'
 
 

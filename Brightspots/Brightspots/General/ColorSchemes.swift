@@ -27,6 +27,27 @@ public class MainColorScheme: MDCSemanticColorScheme {
 
 }
 
+public class SignUpColorScheme: MDCSemanticColorScheme {
+    
+    let fourthButtonColor = UIColor.init(hex:"#2BB8FF")
+    let fifthButtonColor = UIColor.init(hex:"#79D6FF")
+
+    override public init() {
+        super.init()
+        self.primaryColor = UIColor.init(hex:"#025A85")
+        self.primaryColorVariant = UIColor.init(hex: "#0279B0")
+        self.secondaryColor = UIColor.init(hex: "#0396DA")
+        self.backgroundColor = UIColor.init(hex: "#FFFFFF")
+        self.surfaceColor = UIColor.init(hex: "#FFFFFF")
+        self.errorColor = UIColor.init(hex: "#F42B3C")
+    }
+    
+    override public init(defaults: MDCColorSchemeDefaults) {
+        super.init(defaults: defaults)
+    }
+    
+}
+
 public class ChartColorScheme: MDCSemanticColorScheme {
     
     let referenceLineColor = UIColor.init(hex:"#0F93E3")
@@ -93,7 +114,7 @@ public class BloodGlucoseColorScheme: MDCSemanticColorScheme {
     }
     
 //    func getTimeLabelColor(_ lastUpdate : NSNumber) -> UIColor {
-//        
+//
 //        let lastUpdateAsNSDate : Date = Date(timeIntervalSince1970: lastUpdate.doubleValue / 1000)
 //        let timeInterval : Int = Int(Date().timeIntervalSince(lastUpdateAsNSDate))
 //        if (timeInterval > 15*60) {

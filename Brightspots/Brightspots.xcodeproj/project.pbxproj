@@ -42,6 +42,11 @@
 		7543C9602235A5710025D020 /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7543C95F2235A5710025D020 /* Auth0.plist */; };
 		7543C9652235AAE00025D020 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C9642235AAE00025D020 /* LaunchViewController.swift */; };
 		7543C9672235AF4A0025D020 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7543C9662235AF4A0025D020 /* Launch.storyboard */; };
+		7543C96A22360D1B0025D020 /* Signup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7543C96922360D1B0025D020 /* Signup.storyboard */; };
+		7543C96C22360E010025D020 /* ChooseAccountTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C96B22360E010025D020 /* ChooseAccountTypeViewController.swift */; };
+		7543C96E2236C41B0025D020 /* DiabeticTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C96D2236C41B0025D020 /* DiabeticTypeViewController.swift */; };
+		7543C9702236C42E0025D020 /* RelationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C96F2236C42E0025D020 /* RelationViewController.swift */; };
+		7543C972223893050025D020 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C971223893050025D020 /* SessionManager.swift */; };
 		758E5F23222C857700D77169 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E5F22222C857700D77169 /* AppDelegate.swift */; };
 		758E5F25222C857700D77169 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E5F24222C857700D77169 /* HomeViewController.swift */; };
 		758E5F27222C857700D77169 /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E5F26222C857700D77169 /* NetworkViewController.swift */; };
@@ -58,6 +63,9 @@
 		758E5F68222DD2EB00D77169 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E5F67222DD2EB00D77169 /* PhotoViewController.swift */; };
 		758E5F6C222DFF4000D77169 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E5F6B222DFF4000D77169 /* ScheduleViewController.swift */; };
 		758E5F6E222E12CE00D77169 /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758E5F6D222E12CE00D77169 /* TrackViewController.swift */; };
+		75F99CD82246D13B002C5120 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F99CD72246D13B002C5120 /* IntroViewController.swift */; };
+		75F99CDB2246EF97002C5120 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F99CDA2246EF97002C5120 /* Login.storyboard */; };
+		75F99CDE22470545002C5120 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F99CDD22470545002C5120 /* LoginViewController.swift */; };
 		BA7D9CDBD631E3B327E133F8 /* Pods_Brightspots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 638AF01D2076AFB87B927BF8 /* Pods_Brightspots.framework */; };
 		C5FE34B4F1DD60C4978C4215 /* Pods_BrightspotsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CE636D1075760F9194C6B6 /* Pods_BrightspotsUITests.framework */; };
 /* End PBXBuildFile section */
@@ -119,6 +127,11 @@
 		7543C95F2235A5710025D020 /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
 		7543C9642235AAE00025D020 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		7543C9662235AF4A0025D020 /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		7543C96922360D1B0025D020 /* Signup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Signup.storyboard; sourceTree = "<group>"; };
+		7543C96B22360E010025D020 /* ChooseAccountTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseAccountTypeViewController.swift; sourceTree = "<group>"; };
+		7543C96D2236C41B0025D020 /* DiabeticTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiabeticTypeViewController.swift; sourceTree = "<group>"; };
+		7543C96F2236C42E0025D020 /* RelationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationViewController.swift; sourceTree = "<group>"; };
+		7543C971223893050025D020 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
 		758E5F1F222C857700D77169 /* Brightspots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brightspots.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		758E5F22222C857700D77169 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		758E5F24222C857700D77169 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -141,6 +154,9 @@
 		758E5F67222DD2EB00D77169 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		758E5F6B222DFF4000D77169 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
 		758E5F6D222E12CE00D77169 /* TrackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
+		75F99CD72246D13B002C5120 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		75F99CDA2246EF97002C5120 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		75F99CDD22470545002C5120 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C55B4257CD127AC93816CAEF /* Pods-Brightspots.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brightspots.debug.xcconfig"; path = "Target Support Files/Pods-Brightspots/Pods-Brightspots.debug.xcconfig"; sourceTree = "<group>"; };
 		C809D9AC394FD401058DD3F0 /* Pods-Brightspots.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brightspots.release.xcconfig"; path = "Target Support Files/Pods-Brightspots/Pods-Brightspots.release.xcconfig"; sourceTree = "<group>"; };
 		C9DBB20B2C76428ED0C6C58B /* Pods_BrightspotsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrightspotsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -261,6 +277,7 @@
 			isa = PBXGroup;
 			children = (
 				7543C941223370520025D020 /* Nightscout */,
+				7543C971223893050025D020 /* SessionManager.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -319,6 +336,15 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		7543C96822360CBA0025D020 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				75F99CD62246D10B002C5120 /* Controllers */,
+				7543C96922360D1B0025D020 /* Signup.storyboard */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
 		758E5F16222C857700D77169 = {
 			isa = PBXGroup;
 			children = (
@@ -350,6 +376,8 @@
 				7543C9242233331C0025D020 /* Model */,
 				7543C9172231E06A0025D020 /* Services */,
 				7543C9612235AA8D0025D020 /* Launch */,
+				7543C96822360CBA0025D020 /* Signup */,
+				75F99CD92246EF7D002C5120 /* Login */,
 				758E5F52222C877E00D77169 /* Main */,
 				7543C9192231E0940025D020 /* Animations */,
 				758E5F2B222C857900D77169 /* Assets.xcassets */,
@@ -411,6 +439,34 @@
 				758E5F26222C857700D77169 /* NetworkViewController.swift */,
 				758E5F55222C881600D77169 /* ReportsViewController.swift */,
 				758E5F59222CD82800D77169 /* LogViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		75F99CD62246D10B002C5120 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				75F99CD72246D13B002C5120 /* IntroViewController.swift */,
+				7543C96B22360E010025D020 /* ChooseAccountTypeViewController.swift */,
+				7543C96D2236C41B0025D020 /* DiabeticTypeViewController.swift */,
+				7543C96F2236C42E0025D020 /* RelationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		75F99CD92246EF7D002C5120 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				75F99CDC2246EFAC002C5120 /* Controllers */,
+				75F99CDA2246EF97002C5120 /* Login.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		75F99CDC2246EFAC002C5120 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				75F99CDD22470545002C5120 /* LoginViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -548,8 +604,10 @@
 			files = (
 				758E5F2F222C857900D77169 /* LaunchScreen.storyboard in Resources */,
 				7543C9672235AF4A0025D020 /* Launch.storyboard in Resources */,
+				75F99CDB2246EF97002C5120 /* Login.storyboard in Resources */,
 				758E5F2C222C857900D77169 /* Assets.xcassets in Resources */,
 				758E5F2A222C857700D77169 /* Main.storyboard in Resources */,
+				7543C96A22360D1B0025D020 /* Signup.storyboard in Resources */,
 				7543C9602235A5710025D020 /* Auth0.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -627,6 +685,8 @@
 				"${BUILT_PRODUCTS_DIR}/AloeStackView/AloeStackView.framework",
 				"${BUILT_PRODUCTS_DIR}/Auth0/Auth0.framework",
 				"${BUILT_PRODUCTS_DIR}/FontAwesome.swift/FontAwesome_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
 				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
 				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/ScrollableGraphView/ScrollableGraphView.framework",
@@ -640,6 +700,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AloeStackView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Auth0.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesome_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ScrollableGraphView.framework",
@@ -691,10 +753,14 @@
 				758E5F58222CD57600D77169 /* MainTabBarViewController.swift in Sources */,
 				7543C94B2233728B0025D020 /* AnyConvertible.swift in Sources */,
 				7543C956223378970025D020 /* Matrix+Append.swift in Sources */,
+				7543C96E2236C41B0025D020 /* DiabeticTypeViewController.swift in Sources */,
 				7543C9472233718D0025D020 /* DoubleExtension.swift in Sources */,
 				7543C92C22336E300025D020 /* BloodSugar.swift in Sources */,
+				75F99CDE22470545002C5120 /* LoginViewController.swift in Sources */,
 				7543C9432233715C0025D020 /* FloatExtension.swift in Sources */,
+				75F99CD82246D13B002C5120 /* IntroViewController.swift in Sources */,
 				758E5F56222C881600D77169 /* ReportsViewController.swift in Sources */,
+				7543C9702236C42E0025D020 /* RelationViewController.swift in Sources */,
 				7543C9652235AAE00025D020 /* LaunchViewController.swift in Sources */,
 				758E5F66222DD2E200D77169 /* ExpandingRowView.swift in Sources */,
 				7543C954223378790025D020 /* Matrix.swift in Sources */,
@@ -711,7 +777,9 @@
 				7543C913222F47E80025D020 /* SimpleChartRowView.swift in Sources */,
 				758E5F5A222CD82800D77169 /* LogViewController.swift in Sources */,
 				758E5F23222C857700D77169 /* AppDelegate.swift in Sources */,
+				7543C96C22360E010025D020 /* ChooseAccountTypeViewController.swift in Sources */,
 				7543C940223370480025D020 /* ObservationToken.swift in Sources */,
+				7543C972223893050025D020 /* SessionManager.swift in Sources */,
 				7543C92822336DE10025D020 /* Units.swift in Sources */,
 				7543C94D223372A60025D020 /* ArrayExtension.swift in Sources */,
 				7543C922223332890025D020 /* NightscoutService.swift in Sources */,
@@ -901,6 +969,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 878J2FB9S8;
 				INFOPLIST_FILE = Brightspots/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -920,6 +989,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 878J2FB9S8;
 				INFOPLIST_FILE = Brightspots/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

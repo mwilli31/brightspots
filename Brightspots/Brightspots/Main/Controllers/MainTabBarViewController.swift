@@ -63,12 +63,5 @@ class MainTabBarViewController: UITabBarController {
         // Pass the selected object to the new view controller.
     }
     */
-    
-    func pushToNextVC() {
-        let newVC = UIViewController()
-        newVC.view.backgroundColor = UIColor.red
-        self.navigationController?.pushViewController(newVC, animated:
-            true)
-    }
 
 }

@@ -118,7 +118,7 @@ class TrackViewController: UIViewController {
     
     fileprivate func paintChartData(todaysData : [BloodSugar], yesterdaysData : [BloodSugar]) {
         
-        let todaysDataWithPrediction = todaysData + PredictionService.singleton.nextHourGapped
+        _ = todaysData + PredictionService.singleton.nextHourGapped
         
         self.simpleChartRow.reloadData(fromNightscout: todaysData)
 

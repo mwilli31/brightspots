@@ -8,9 +8,11 @@
 
 import UIKit
 import MaterialComponents.MaterialColorScheme
+import Auth0
 
 //main color scheme
 let mainColorScheme = MainColorScheme()
+let signUpColorScheme = SignUpColorScheme()
 let chartColorScheme = ChartColorScheme()
 let bloodGlucoseColorScheme = BloodGlucoseColorScheme()
 
