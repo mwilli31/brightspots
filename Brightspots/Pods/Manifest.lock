@@ -1,9 +1,9 @@
 PODS:
   - AloeStackView (1.0.1)
-  - Auth0 (1.14.1):
+  - Auth0 (1.14.2):
     - SimpleKeychain
-  - FontAwesome.swift (1.5.1)
-  - MaterialComponents/Buttons (78.0.1):
+  - FontAwesome.swift (1.6.0)
+  - MaterialComponents/Buttons (79.3.0):
     - MaterialComponents/Ink
     - MaterialComponents/private/Math
     - MaterialComponents/ShadowElevations
@@ -12,60 +12,60 @@ PODS:
     - MaterialComponents/Typography
     - MDFInternationalization
     - MDFTextAccessibility
-  - "MaterialComponents/Buttons+ButtonThemer (78.0.1)":
+  - "MaterialComponents/Buttons+ButtonThemer (79.3.0)":
     - MaterialComponents/Buttons
     - "MaterialComponents/Buttons+ColorThemer"
     - "MaterialComponents/Buttons+ShapeThemer"
     - "MaterialComponents/Buttons+TypographyThemer"
     - MaterialComponents/Palettes
-  - "MaterialComponents/Buttons+ColorThemer (78.0.1)":
+  - "MaterialComponents/Buttons+ColorThemer (79.3.0)":
     - MaterialComponents/Buttons
     - MaterialComponents/schemes/Color
-  - "MaterialComponents/Buttons+ShapeThemer (78.0.1)":
+  - "MaterialComponents/Buttons+ShapeThemer (79.3.0)":
     - MaterialComponents/Buttons
     - MaterialComponents/schemes/Shape
-  - "MaterialComponents/Buttons+TypographyThemer (78.0.1)":
+  - "MaterialComponents/Buttons+TypographyThemer (79.3.0)":
     - MaterialComponents/Buttons
     - MaterialComponents/schemes/Typography
-  - MaterialComponents/Cards (78.0.1):
+  - MaterialComponents/Cards (79.3.0):
     - "MaterialComponents/Cards+Private"
     - MaterialComponents/Ink
     - MaterialComponents/private/Icons/ic_check_circle
     - MaterialComponents/private/Math
     - MaterialComponents/ShadowLayer
     - MaterialComponents/Shapes
-  - "MaterialComponents/Cards+ColorThemer (78.0.1)":
+  - "MaterialComponents/Cards+ColorThemer (79.3.0)":
     - MaterialComponents/Cards
     - MaterialComponents/schemes/Color
-  - "MaterialComponents/Cards+Private (78.0.1)"
-  - MaterialComponents/Ink (78.0.1):
+  - "MaterialComponents/Cards+Private (79.3.0)"
+  - MaterialComponents/Ink (79.3.0):
     - MaterialComponents/private/Math
-  - MaterialComponents/Palettes (78.0.1)
-  - MaterialComponents/private/Application (78.0.1)
-  - MaterialComponents/private/Icons/Base (78.0.1)
-  - MaterialComponents/private/Icons/ic_check_circle (78.0.1):
+  - MaterialComponents/Palettes (79.3.0)
+  - MaterialComponents/private/Application (79.3.0)
+  - MaterialComponents/private/Icons/Base (79.3.0)
+  - MaterialComponents/private/Icons/ic_check_circle (79.3.0):
     - MaterialComponents/private/Icons/Base
-  - MaterialComponents/private/Math (78.0.1)
-  - MaterialComponents/schemes/Color (78.0.1)
-  - MaterialComponents/schemes/Shape (78.0.1):
+  - MaterialComponents/private/Math (79.3.0)
+  - MaterialComponents/schemes/Color (79.3.0)
+  - MaterialComponents/schemes/Shape (79.3.0):
     - MaterialComponents/ShapeLibrary
     - MaterialComponents/Shapes
-  - MaterialComponents/schemes/Typography (78.0.1)
-  - MaterialComponents/ShadowElevations (78.0.1)
-  - MaterialComponents/ShadowLayer (78.0.1):
+  - MaterialComponents/schemes/Typography (79.3.0)
+  - MaterialComponents/ShadowElevations (79.3.0)
+  - MaterialComponents/ShadowLayer (79.3.0):
     - MaterialComponents/ShadowElevations
-  - MaterialComponents/ShapeLibrary (78.0.1):
+  - MaterialComponents/ShapeLibrary (79.3.0):
     - MaterialComponents/private/Math
     - MaterialComponents/Shapes
-  - MaterialComponents/Shapes (78.0.1):
+  - MaterialComponents/Shapes (79.3.0):
     - MaterialComponents/private/Math
     - MaterialComponents/ShadowLayer
-  - MaterialComponents/Typography (78.0.1):
+  - MaterialComponents/Typography (79.3.0):
     - MaterialComponents/private/Application
     - MaterialComponents/private/Math
   - MDFInternationalization (2.0.0)
   - MDFTextAccessibility (2.0.0)
-  - paper-onboarding (5.0.0)
+  - paper-onboarding (5.0.1)
   - PureLayout (3.1.4)
   - ScrollableGraphView (4.0.6)
   - SimpleKeychain (0.8.1)
@@ -100,12 +100,12 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AloeStackView: d22c006da4510db5e220968234174654b5ed6ea5
-  Auth0: 064dc115cd99eec7334d1cab565f4d974eecac4d
-  FontAwesome.swift: 9b5a9b9adb6d48b2d37c1e789889ef377cfbc205
-  MaterialComponents: 1e1d1a8356bbf2b80f6a0aa32018cda8ac8065a5
+  Auth0: df9ac013e7850052fea1dcd53fa09bb129121721
+  FontAwesome.swift: 71a422e7b209ee940c7c21a5d13964ecf2897ca4
+  MaterialComponents: b5069f73fccb7c71e1be8b54fd791cc99320f467
   MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
   MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
-  paper-onboarding: a2e3a710fd27ac0b5635ec5490660e7ec09289b5
+  paper-onboarding: ae39e418748c0b4eab39b2e59f398b48cdebfae5
   PureLayout: f08c01b8dec00bb14a1fefa3de4c7d9c265df85e
   ScrollableGraphView: 4af35d4ea9ecdec665d34a74da51da161ddff8ac
   SimpleKeychain: e2485c28d82fcece35e9e41faeac42ebfe614815
