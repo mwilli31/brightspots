@@ -28,7 +28,7 @@ class UserDefaultsRepository {
     
     static let baseUri = UserDefaultsValue<String>(
         key: "hostUri",
-        default: "https://****.herokuapp.com", //set url here, will remove to be read from Auth0 profile soons
+        default: "https://jwilli31.herokuapp.com", //set url here, will remove to be read from Auth0 profile soons
         onChange: { _ in
             parseBaseUri()
     },

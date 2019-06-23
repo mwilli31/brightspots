@@ -21,12 +21,8 @@ class SessionManager {
     
     private init () {
         self.credentialsManager = CredentialsManager(authentication: Auth0.authentication())
-        self.credentialsManager.enableBiometrics(withTitle: "Touch ID / Face ID Login")
+        self.credentialsManager.enableBiometrics(withTitle: "Use Touch ID or Face ID to Login")
         _ = self.authentication.logging(enabled: true) // API Logging
-    }
-    
-    func enableBiometrics() {
-        
     }
     
     func retrieveProfile(_ callback: @escaping (Error?) -> ()) {
@@ -63,6 +59,33 @@ class SessionManager {
         // Assume New user if hasn't been stored
         let isUser = UserDefaults.standard.bool(forKey: "user") //returns false if key has no value
         return !isUser //new user is the user is false
+    }
+    
+    func createUserProfile(_ callback: @escaping (Error?) -> ()) {
+
+        callback(nil)
+    }
+    
+    func addMetaData() {
+        
+        //first retreive meta data about user
+        
+        //then update
+        guard let accessToken = SessionManager.shared.credentials?.accessToken else {
+            return print("Failed to retrieve access token")
+        }
+        Auth0
+            .users(token: accessToken)
+            .patch(self.profile!.sub, userMetadata: ["country": "United Kingdom"])
+            .start { result in
+                switch(result) {
+                case .success(_):
+                    print("hi")
+//                    self.createUserProfile()
+                case .failure(let error):
+                    print("Failed to retrieve profile: \(String(describing: error))")
+                }
+        }
     }
     
     func userCreated() {

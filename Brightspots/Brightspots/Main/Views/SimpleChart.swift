@@ -111,15 +111,23 @@ class SimpleChart : ScrollableGraphViewDataSource {
         
         let graphView = ScrollableGraphView(frame: frame, dataSource: self)
         // Setup the first line plot.
-        let blueLinePlot = LinePlot(identifier: "multiBlue")
+        let blueLinePlot = DotPlot(identifier: "multiBlue")
         
-        blueLinePlot.lineWidth = Constants.Size.LINE_CHART_LINE
-        blueLinePlot.lineColor = chartColorScheme.primaryColor
-        blueLinePlot.lineStyle = ScrollableGraphViewLineStyle.smooth
+//        blueLinePlot.lineWidth = Constants.Size.LINE_CHART_LINE
+//        blueLinePlot.lineColor = chartColorScheme.primaryColor
+//        blueLinePlot.lineStyle = ScrollableGraphViewLineStyle.smooth
+//
+//        blueLinePlot.shouldFill = false
+//        blueLinePlot.fillType = ScrollableGraphViewFillType.solid
+//        blueLinePlot.fillColor = .white
+
+        blueLinePlot.dataPointSize = Constants.Size.LINE_CHART_LINE
+        blueLinePlot.dataPointFillColor = chartColorScheme.primaryColor
+        blueLinePlot.dataPointType = ScrollableGraphViewDataPointType.circle
         
-        blueLinePlot.shouldFill = false
-        blueLinePlot.fillType = ScrollableGraphViewFillType.solid
-        blueLinePlot.fillColor = .white
+//        blueLinePlot.shouldFill = false
+//        blueLinePlot.fillType = ScrollableGraphViewFillType.solid
+//        blueLinePlot.fillColor = .white
         
         blueLinePlot.adaptAnimationType = ScrollableGraphViewAnimationType.elastic
         

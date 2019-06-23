@@ -9,33 +9,50 @@
 import Foundation
 import MaterialComponents.MaterialColorScheme
 
-public class MainColorScheme: MDCSemanticColorScheme {
+struct Colors {
+    static let NIGHT_BLUE = "#000031"
+    static let LIGHT_BLUE = "#09F5ED"
+    static let LIGHT_GREEN = "#06F6A8"
+    static let BRIGHT_ORANGE = "#FF8126"
+    static let BRIGHT_PINK = "#FF117E"
+    static let WHITE = "#FFFFFF"
+    static let SKY_BLUE = "#F3FFFC"
+}
 
+public class MainColorScheme: MDCSemanticColorScheme {
+    
     override public init() {
         super.init()
-        self.primaryColor = UIColor.init(hex:"#00A0E1")
-        self.primaryColorVariant = UIColor.init(hex: "#55CCFF")
-        self.secondaryColor = UIColor.init(hex: "#BD10E0")
-        self.backgroundColor = UIColor.init(hex: "#FFFFFF")
-        self.surfaceColor = UIColor.init(hex: "#FFFFFF")
-        self.errorColor = UIColor.init(hex: "#F42B3C")
+        self.primaryColor = UIColor.init(hex: Colors.LIGHT_BLUE)
+        self.primaryColorVariant = UIColor.init(hex: Colors.LIGHT_GREEN)
+        self.secondaryColor = UIColor.init(hex: Colors.BRIGHT_PINK)
+        self.backgroundColor = UIColor.init(hex: Colors.WHITE)
+        self.surfaceColor = UIColor.init(hex: Colors.NIGHT_BLUE)
+        self.errorColor = UIColor.init(hex: Colors.BRIGHT_ORANGE)
+        //        self.primaryColor = UIColor.init(hex:"#00A0E1")
+        //        self.primaryColorVariant = UIColor.init(hex: "#55CCFF")
+        //        self.secondaryColor = UIColor.init(hex: "#BD10E0")
+        //        self.backgroundColor = UIColor.init(hex: "#FFFFFF")
+        //        self.surfaceColor = UIColor.init(hex: "#FFFFFF")
+        //        self.errorColor = UIColor.init(hex: "#F42B3C")
+        
     }
     
     override public init(defaults: MDCColorSchemeDefaults) {
         super.init(defaults: defaults)
     }
-
+    
 }
 
 public class SignUpColorScheme: MDCSemanticColorScheme {
     
     let fourthButtonColor = UIColor.init(hex:"#2BB8FF")
     let fifthButtonColor = UIColor.init(hex:"#79D6FF")
-
+    
     override public init() {
         super.init()
-        self.primaryColor = UIColor.init(hex:"#025A85")
-        self.primaryColorVariant = UIColor.init(hex: "#0279B0")
+        self.primaryColor = UIColor.init(hex:"#09F5ED")
+        self.primaryColorVariant = UIColor.init(hex: "#06F6A8")
         self.secondaryColor = UIColor.init(hex: "#0396DA")
         self.backgroundColor = UIColor.init(hex: "#FFFFFF")
         self.surfaceColor = UIColor.init(hex: "#FFFFFF")
@@ -50,19 +67,18 @@ public class SignUpColorScheme: MDCSemanticColorScheme {
 
 public class ChartColorScheme: MDCSemanticColorScheme {
     
-    let referenceLineColor = UIColor.init(hex:"#0F93E3")
-    var rangeLineColor = UIColor.init()
-    let bigRangeLineColor = UIColor.init(hex: "#FF7B00").withAlphaComponent(0.2)
-
+    let referenceLineColor = UIColor.init(hex: Colors.SKY_BLUE)
+    var rangeLineColor = UIColor.init(hex: Colors.SKY_BLUE).withAlphaComponent(0.5)
+    let bigRangeLineColor = UIColor.init(hex: Colors.LIGHT_GREEN).withAlphaComponent(0.35)
+    
     override public init() {
         super.init()
-        self.primaryColor = UIColor.init(hex:"#00A0E1")
-        self.primaryColorVariant = UIColor.init(hex: "#55CCFF")
-        self.secondaryColor = UIColor.init(hex: "#BD10E0")
-        self.backgroundColor = UIColor.init(hex: "#FFFFFF")
-        self.surfaceColor = UIColor.init(hex: "#FFFFFF")
-        self.errorColor = UIColor.init(hex: "#F42B3C")
-        self.rangeLineColor = self.primaryColorVariant.withAlphaComponent(0.5)
+        self.primaryColor = UIColor.init(hex: Colors.LIGHT_BLUE)
+        self.primaryColorVariant = UIColor.init(hex: Colors.LIGHT_GREEN)
+        self.secondaryColor = UIColor.init(hex: Colors.BRIGHT_PINK)
+        self.backgroundColor = UIColor.init(hex: Colors.WHITE)
+        self.surfaceColor = UIColor.init(hex: Colors.NIGHT_BLUE)
+        self.errorColor = UIColor.init(hex: Colors.BRIGHT_ORANGE)
     }
     
     override public init(defaults: MDCColorSchemeDefaults) {
@@ -75,11 +91,11 @@ public class BloodGlucoseColorScheme: MDCSemanticColorScheme {
     
     override public init() {
         super.init()
-        self.primaryColor = UIColor.init(hex:"#00A0E1")
-        self.secondaryColor = UIColor.init(hex: "#FFE200")
-        self.backgroundColor = UIColor.init(hex: "#FFFFFF")
-        self.surfaceColor = UIColor.init(hex: "#FFFFFF")
-        self.errorColor = UIColor.init(hex: "#F42B3C")
+        self.primaryColor = UIColor.init(hex: Colors.LIGHT_BLUE)
+        self.secondaryColor = UIColor.init(hex: Colors.BRIGHT_ORANGE)
+        self.backgroundColor = UIColor.init(hex: Colors.WHITE)
+        self.surfaceColor = UIColor.init(hex: Colors.WHITE)
+        self.errorColor = UIColor.init(hex: Colors.BRIGHT_PINK)
     }
     
     override public init(defaults: MDCColorSchemeDefaults) {
@@ -113,18 +129,18 @@ public class BloodGlucoseColorScheme: MDCSemanticColorScheme {
         }
     }
     
-//    func getTimeLabelColor(_ lastUpdate : NSNumber) -> UIColor {
-//
-//        let lastUpdateAsNSDate : Date = Date(timeIntervalSince1970: lastUpdate.doubleValue / 1000)
-//        let timeInterval : Int = Int(Date().timeIntervalSince(lastUpdateAsNSDate))
-//        if (timeInterval > 15*60) {
-//            return RED
-//        } else if (timeInterval > 7*60) {
-//            return YELLOW
-//        } else {
-//            return UIColor.white
-//        }
-//    }
+    //    func getTimeLabelColor(_ lastUpdate : NSNumber) -> UIColor {
+    //
+    //        let lastUpdateAsNSDate : Date = Date(timeIntervalSince1970: lastUpdate.doubleValue / 1000)
+    //        let timeInterval : Int = Int(Date().timeIntervalSince(lastUpdateAsNSDate))
+    //        if (timeInterval > 15*60) {
+    //            return RED
+    //        } else if (timeInterval > 7*60) {
+    //            return YELLOW
+    //        } else {
+    //            return UIColor.white
+    //        }
+    //    }
     
 }
 
