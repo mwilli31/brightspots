@@ -41,6 +41,15 @@ open class StackViewCell: UIView {
   }
 
   // MARK: Open
+    
+  open override var isHidden: Bool {
+    didSet {
+      guard isHidden != oldValue else { return }
+      separatorView.alpha = isHidden ? 0 : 1
+    }
+  }
+
+  open var rowHighlightColor = UIColor(red: 217 / 255, green: 217 / 255, blue: 217 / 255, alpha: 1)
 
   open var rowBackgroundColor = UIColor.clear {
     didSet {
@@ -83,17 +92,16 @@ open class StackViewCell: UIView {
     guard contentView.isUserInteractionEnabled else { return }
 
     if let contentView = contentView as? Highlightable, contentView.isHighlightable {
-      // TODO: make this customizeable.
-      backgroundColor = UIColor(red: 242 / 255, green: 242 / 255, blue: 242 / 255, alpha: 1)
+      contentView.setIsHighlighted(true)
     }
   }
 
   open override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
-    super.touchesMoved(touches, with: event)
+    super.touchesCancelled(touches, with: event)
     guard contentView.isUserInteractionEnabled else { return }
 
     if let contentView = contentView as? Highlightable, contentView.isHighlightable {
-      backgroundColor = rowBackgroundColor
+      contentView.setIsHighlighted(false)
     }
   }
 
@@ -102,7 +110,7 @@ open class StackViewCell: UIView {
     guard contentView.isUserInteractionEnabled else { return }
 
     if let contentView = contentView as? Highlightable, contentView.isHighlightable {
-      backgroundColor = rowBackgroundColor
+      contentView.setIsHighlighted(false)
     }
   }
 

@@ -17,9 +17,9 @@ let chartColorScheme = ChartColorScheme()
 let bloodGlucoseColorScheme = BloodGlucoseColorScheme()
 
 //glucose settings
-var LINE_CHART_GLUCOSE_RANGE = CGFloat(40)
+var LINE_CHART_GLUCOSE_RANGE = CGFloat(70)
 var LINE_CHART_GLUCOSE_MID = CGFloat(100)
-var LINE_CHART_BIG_GLUCOSE_RANGE = CGFloat(135)
+var LINE_CHART_BIG_GLUCOSE_RANGE = CGFloat(230)
 var LINE_CHART_BIG_GLUCOSE_MID = CGFloat(135)
 
 struct Constants {
@@ -35,13 +35,14 @@ struct Constants {
     }
     
     struct Size {
-        static let LINE_CHART_LINE = CGFloat(3.0)
+        static let LINE_CHART_LINE = CGFloat(4.5)
+        static let LINE_CHART_LINE_PRED = CGFloat(4.5)
         static let LINE_CHART_REFERENCE_LINE = CGFloat(1.0)
         
     }
     
     struct LINE_CHART {
-        static let RANGE_MAX = 300.0
+        static let RANGE_MAX = 220.0
         static let RANGE_MIN = 40.0
     }
     

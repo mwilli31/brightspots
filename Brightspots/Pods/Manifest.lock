@@ -1,74 +1,79 @@
 PODS:
-  - AloeStackView (1.0.1)
-  - Auth0 (1.14.2):
+  - AloeStackView (1.1.0)
+  - Auth0 (1.15.0):
     - SimpleKeychain
-  - FontAwesome.swift (1.6.0)
-  - MaterialComponents/Buttons (79.3.0):
+  - FontAwesome.swift (1.7.1)
+  - MaterialComponents/AnimationTiming (85.0.1)
+  - MaterialComponents/Buttons (85.0.1):
     - MaterialComponents/Ink
     - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
     - MaterialComponents/ShadowElevations
     - MaterialComponents/ShadowLayer
     - MaterialComponents/Shapes
     - MaterialComponents/Typography
     - MDFInternationalization
     - MDFTextAccessibility
-  - "MaterialComponents/Buttons+ButtonThemer (79.3.0)":
+  - "MaterialComponents/Buttons+ButtonThemer (85.0.1)":
     - MaterialComponents/Buttons
     - "MaterialComponents/Buttons+ColorThemer"
     - "MaterialComponents/Buttons+ShapeThemer"
     - "MaterialComponents/Buttons+TypographyThemer"
     - MaterialComponents/Palettes
-  - "MaterialComponents/Buttons+ColorThemer (79.3.0)":
+  - "MaterialComponents/Buttons+ColorThemer (85.0.1)":
     - MaterialComponents/Buttons
     - MaterialComponents/schemes/Color
-  - "MaterialComponents/Buttons+ShapeThemer (79.3.0)":
+  - "MaterialComponents/Buttons+ShapeThemer (85.0.1)":
     - MaterialComponents/Buttons
     - MaterialComponents/schemes/Shape
-  - "MaterialComponents/Buttons+TypographyThemer (79.3.0)":
+  - "MaterialComponents/Buttons+TypographyThemer (85.0.1)":
     - MaterialComponents/Buttons
     - MaterialComponents/schemes/Typography
-  - MaterialComponents/Cards (79.3.0):
-    - "MaterialComponents/Cards+Private"
+  - MaterialComponents/Cards (85.0.1):
     - MaterialComponents/Ink
     - MaterialComponents/private/Icons/ic_check_circle
     - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
     - MaterialComponents/ShadowLayer
     - MaterialComponents/Shapes
-  - "MaterialComponents/Cards+ColorThemer (79.3.0)":
+  - "MaterialComponents/Cards+ColorThemer (85.0.1)":
     - MaterialComponents/Cards
     - MaterialComponents/schemes/Color
-  - "MaterialComponents/Cards+Private (79.3.0)"
-  - MaterialComponents/Ink (79.3.0):
+  - MaterialComponents/Ink (85.0.1):
     - MaterialComponents/private/Math
-  - MaterialComponents/Palettes (79.3.0)
-  - MaterialComponents/private/Application (79.3.0)
-  - MaterialComponents/private/Icons/Base (79.3.0)
-  - MaterialComponents/private/Icons/ic_check_circle (79.3.0):
+  - MaterialComponents/Palettes (85.0.1)
+  - MaterialComponents/private/Application (85.0.1)
+  - MaterialComponents/private/Icons/Base (85.0.1)
+  - MaterialComponents/private/Icons/ic_check_circle (85.0.1):
     - MaterialComponents/private/Icons/Base
-  - MaterialComponents/private/Math (79.3.0)
-  - MaterialComponents/schemes/Color (79.3.0)
-  - MaterialComponents/schemes/Shape (79.3.0):
+  - MaterialComponents/private/Math (85.0.1)
+  - MaterialComponents/Ripple (85.0.1):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Math
+  - MaterialComponents/schemes/Color (85.0.1)
+  - MaterialComponents/schemes/Shape (85.0.1):
     - MaterialComponents/ShapeLibrary
     - MaterialComponents/Shapes
-  - MaterialComponents/schemes/Typography (79.3.0)
-  - MaterialComponents/ShadowElevations (79.3.0)
-  - MaterialComponents/ShadowLayer (79.3.0):
+  - MaterialComponents/schemes/Typography (85.0.1):
+    - MaterialComponents/Typography
+  - MaterialComponents/ShadowElevations (85.0.1)
+  - MaterialComponents/ShadowLayer (85.0.1):
     - MaterialComponents/ShadowElevations
-  - MaterialComponents/ShapeLibrary (79.3.0):
+  - MaterialComponents/ShapeLibrary (85.0.1):
     - MaterialComponents/private/Math
     - MaterialComponents/Shapes
-  - MaterialComponents/Shapes (79.3.0):
+  - MaterialComponents/Shapes (85.0.1):
     - MaterialComponents/private/Math
     - MaterialComponents/ShadowLayer
-  - MaterialComponents/Typography (79.3.0):
+  - MaterialComponents/Typography (85.0.1):
     - MaterialComponents/private/Application
     - MaterialComponents/private/Math
   - MDFInternationalization (2.0.0)
   - MDFTextAccessibility (2.0.0)
-  - paper-onboarding (5.0.1)
+  - paper-onboarding (6.1.3)
   - PureLayout (3.1.4)
   - ScrollableGraphView (4.0.6)
-  - SimpleKeychain (0.8.1)
+  - SimpleKeychain (0.9.0)
 
 DEPENDENCIES:
   - AloeStackView
@@ -99,17 +104,17 @@ SPEC REPOS:
     - SimpleKeychain
 
 SPEC CHECKSUMS:
-  AloeStackView: d22c006da4510db5e220968234174654b5ed6ea5
-  Auth0: df9ac013e7850052fea1dcd53fa09bb129121721
-  FontAwesome.swift: 71a422e7b209ee940c7c21a5d13964ecf2897ca4
-  MaterialComponents: b5069f73fccb7c71e1be8b54fd791cc99320f467
+  AloeStackView: fe6bb97cb2ba3d23c59516b3610b854e2c081698
+  Auth0: b741c805711a80eb698fce55d354cc32e0784dce
+  FontAwesome.swift: 8d9792fa2d2347055da35bd97752b3960bd75952
+  MaterialComponents: e134130f8c81e27dbc4caa3165a8e8cd5b3468e9
   MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
   MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
-  paper-onboarding: ae39e418748c0b4eab39b2e59f398b48cdebfae5
+  paper-onboarding: 47ded9ede6ae9dd7ec135dddd8bd3e170b79d799
   PureLayout: f08c01b8dec00bb14a1fefa3de4c7d9c265df85e
   ScrollableGraphView: 4af35d4ea9ecdec665d34a74da51da161ddff8ac
-  SimpleKeychain: e2485c28d82fcece35e9e41faeac42ebfe614815
+  SimpleKeychain: 3be49072fd2d82de8fa83d847ef1e548622f8fc5
 
 PODFILE CHECKSUM: ced320c30076ff694e860b5893252439b4f52985
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.7.2

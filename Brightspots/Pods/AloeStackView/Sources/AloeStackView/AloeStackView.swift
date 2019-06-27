@@ -69,10 +69,15 @@ open class AloeStackView: UIScrollView {
   ///
   /// If `animated` is `true`, the insertion is animated.
   open func insertRow(_ row: UIView, before beforeRow: UIView, animated: Bool = false) {
+    #if swift(>=5.0)
     guard
-      let cell = beforeRow.superview as? StackViewCell,
-      let index = stackView.arrangedSubviews.index(of: cell) else { return }
-
+        let cell = beforeRow.superview as? StackViewCell,
+        let index = stackView.arrangedSubviews.firstIndex(of: cell) else { return }
+    #else
+    guard
+        let cell = beforeRow.superview as? StackViewCell,
+        let index = stackView.arrangedSubviews.index(of: cell) else { return }
+    #endif
     insertCell(withContentView: row, atIndex: index, animated: animated)
   }
 
@@ -87,10 +92,15 @@ open class AloeStackView: UIScrollView {
   ///
   /// If `animated` is `true`, the insertion is animated.
   open func insertRow(_ row: UIView, after afterRow: UIView, animated: Bool = false) {
+    #if swift(>=5.0)
     guard
-      let cell = afterRow.superview as? StackViewCell,
-      let index = stackView.arrangedSubviews.index(of: cell) else { return }
-
+        let cell = afterRow.superview as? StackViewCell,
+        let index = stackView.arrangedSubviews.firstIndex(of: cell) else { return }
+    #else
+    guard
+        let cell = afterRow.superview as? StackViewCell,
+        let index = stackView.arrangedSubviews.index(of: cell) else { return }
+    #endif
     insertCell(withContentView: row, atIndex: index + 1, animated: animated)
   }
 
@@ -132,6 +142,20 @@ open class AloeStackView: UIScrollView {
   }
 
   // MARK: Accessing Rows
+
+  /// The first row in the stack view.
+  ///
+  /// This property is nil if there are no rows in the stack view.
+  open var firstRow: UIView? {
+    return (stackView.arrangedSubviews.first as? StackViewCell)?.contentView
+  }
+
+  /// The last row in the stack view.
+  ///
+  /// This property is nil if there are no rows in the stack view.
+  open var lastRow: UIView? {
+    return (stackView.arrangedSubviews.last as? StackViewCell)?.contentView
+  }
 
   /// Returns an array containing of all the rows in the stack view.
   ///
@@ -186,7 +210,7 @@ open class AloeStackView: UIScrollView {
   ///
   /// If `animated` is `true`, the change is animated.
   open func setRowHidden(_ row: UIView, isHidden: Bool, animated: Bool = false) {
-    guard let cell = row.superview as? StackViewCell else { return }
+    guard let cell = row.superview as? StackViewCell, cell.isHidden != isHidden else { return }
 
     if animated {
       UIView.animate(withDuration: 0.3) {
@@ -236,6 +260,12 @@ open class AloeStackView: UIScrollView {
   /// This background color will be used for any new row that is added to the stack view.
   /// The default color is clear.
   open var rowBackgroundColor = UIColor.clear
+    
+  /// The highlight background color of rows in the stack view.
+  ///
+  /// This highlight background color will be used for any new row that is added to the stack view.
+  /// The default color is #D9D9D9 (RGB 217, 217, 217).
+  open var rowHighlightColor = AloeStackView.defaultRowHighlightColor
 
   /// Sets the background color for the given row to the `UIColor` provided.
   open func setBackgroundColor(forRow row: UIView, color: UIColor) {
@@ -308,15 +338,15 @@ open class AloeStackView: UIScrollView {
   /// Sets the separator inset for the given row to the `UIEdgeInsets` provided.
   ///
   /// Only left and right insets are honored.
-  open func setSeperatorInset(forRow row: UIView, inset: UIEdgeInsets) {
+  open func setSeparatorInset(forRow row: UIView, inset: UIEdgeInsets) {
     (row.superview as? StackViewCell)?.separatorInset = inset
   }
 
   /// Sets the separator inset for the given rows to the `UIEdgeInsets` provided.
   ///
   /// Only left and right insets are honored.
-  open func setSeperatorInset(forRows rows: [UIView], inset: UIEdgeInsets) {
-    rows.forEach { setSeperatorInset(forRow: $0, inset: inset) }
+  open func setSeparatorInset(forRows rows: [UIView], inset: UIEdgeInsets) {
+    rows.forEach { setSeparatorInset(forRow: $0, inset: inset) }
   }
 
   // MARK: Hiding and Showing Separators
@@ -438,6 +468,7 @@ open class AloeStackView: UIScrollView {
     let cell = cellForRow(contentView)
 
     cell.rowBackgroundColor = rowBackgroundColor
+    cell.rowHighlightColor = rowHighlightColor
     cell.rowInset = rowInset
     cell.separatorColor = separatorColor
     cell.separatorHeight = separatorHeight
@@ -515,10 +546,15 @@ open class AloeStackView: UIScrollView {
   }
 
   private func cellAbove(cell: StackViewCell) -> StackViewCell? {
+    #if swift(>=5.0)
+    guard let index = stackView.arrangedSubviews.firstIndex(of: cell), index > 0 else { return nil }
+    #else
     guard let index = stackView.arrangedSubviews.index(of: cell), index > 0 else { return nil }
+    #endif
     return stackView.arrangedSubviews[index - 1] as? StackViewCell
   }
 
+  private static let defaultRowHighlightColor: UIColor = UIColor(red: 217 / 255, green: 217 / 255, blue: 217 / 255, alpha: 1)
   private static let defaultSeparatorColor: UIColor = UITableView().separatorColor ?? .clear
   private static let defaultSeparatorInset: UIEdgeInsets = UITableView().separatorInset
 

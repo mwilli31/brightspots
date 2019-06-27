@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -66,6 +66,7 @@
 		75F99CD82246D13B002C5120 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F99CD72246D13B002C5120 /* IntroViewController.swift */; };
 		75F99CDB2246EF97002C5120 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F99CDA2246EF97002C5120 /* Login.storyboard */; };
 		75F99CDE22470545002C5120 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F99CDD22470545002C5120 /* LoginViewController.swift */; };
+		75FDCD1422C005E90085D48C /* SimpleBaseNotificationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FDCD1322C005E90085D48C /* SimpleBaseNotificationCard.swift */; };
 		BA7D9CDBD631E3B327E133F8 /* Pods_Brightspots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 638AF01D2076AFB87B927BF8 /* Pods_Brightspots.framework */; };
 		C5FE34B4F1DD60C4978C4215 /* Pods_BrightspotsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CE636D1075760F9194C6B6 /* Pods_BrightspotsUITests.framework */; };
 /* End PBXBuildFile section */
@@ -157,6 +158,7 @@
 		75F99CD72246D13B002C5120 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		75F99CDA2246EF97002C5120 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		75F99CDD22470545002C5120 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		75FDCD1322C005E90085D48C /* SimpleBaseNotificationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBaseNotificationCard.swift; sourceTree = "<group>"; };
 		C55B4257CD127AC93816CAEF /* Pods-Brightspots.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brightspots.debug.xcconfig"; path = "Target Support Files/Pods-Brightspots/Pods-Brightspots.debug.xcconfig"; sourceTree = "<group>"; };
 		C809D9AC394FD401058DD3F0 /* Pods-Brightspots.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brightspots.release.xcconfig"; path = "Target Support Files/Pods-Brightspots/Pods-Brightspots.release.xcconfig"; sourceTree = "<group>"; };
 		C9DBB20B2C76428ED0C6C58B /* Pods_BrightspotsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrightspotsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -419,11 +421,12 @@
 		758E5F5B222DBE0500D77169 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7543C915222F5F250025D020 /* Examples.swift */,
+				7543C912222F47E80025D020 /* SimpleChartRowView.swift */,
 				7543C91F2231EAC30025D020 /* SimpleChart.swift */,
+				75FDCD1322C005E90085D48C /* SimpleBaseNotificationCard.swift */,
+				7543C915222F5F250025D020 /* Examples.swift */,
 				758E5F64222DD2E200D77169 /* ExpandingRowView.swift */,
 				758E5F63222DD2E200D77169 /* SwitchRowView.swift */,
-				7543C912222F47E80025D020 /* SimpleChartRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -566,13 +569,16 @@
 				TargetAttributes = {
 					758E5F1E222C857700D77169 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					758E5F34222C857900D77169 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = 758E5F1E222C857700D77169;
 					};
 					758E5F3F222C857900D77169 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = 758E5F1E222C857700D77169;
 					};
 				};
@@ -679,34 +685,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Brightspots/Pods-Brightspots-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AloeStackView/AloeStackView.framework",
-				"${BUILT_PRODUCTS_DIR}/Auth0/Auth0.framework",
-				"${BUILT_PRODUCTS_DIR}/FontAwesome.swift/FontAwesome_swift.framework",
-				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
-				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
-				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
-				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
-				"${BUILT_PRODUCTS_DIR}/ScrollableGraphView/ScrollableGraphView.framework",
-				"${BUILT_PRODUCTS_DIR}/SimpleKeychain/SimpleKeychain.framework",
-				"${BUILT_PRODUCTS_DIR}/paper-onboarding/paper_onboarding.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-Brightspots/Pods-Brightspots-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AloeStackView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Auth0.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesome_swift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ScrollableGraphView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SimpleKeychain.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/paper_onboarding.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-Brightspots/Pods-Brightspots-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -774,6 +757,7 @@
 				758E5F27222C857700D77169 /* NetworkViewController.swift in Sources */,
 				7543C951223377370025D020 /* PredictionService.swift in Sources */,
 				7543C94F223373AB0025D020 /* NightscoutCacheService.swift in Sources */,
+				75FDCD1422C005E90085D48C /* SimpleBaseNotificationCard.swift in Sources */,
 				7543C913222F47E80025D020 /* SimpleChartRowView.swift in Sources */,
 				758E5F5A222CD82800D77169 /* LogViewController.swift in Sources */,
 				758E5F23222C857700D77169 /* AppDelegate.swift in Sources */,
@@ -974,9 +958,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = personal.Brightspots;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -994,9 +979,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = personal.Brightspots;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -1017,7 +1003,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = personal.BrightspotsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brightspots.app/Brightspots";
 			};
@@ -1039,7 +1025,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = personal.BrightspotsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brightspots.app/Brightspots";
 			};
@@ -1060,7 +1046,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = personal.BrightspotsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Brightspots;
 			};
@@ -1081,7 +1067,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = personal.BrightspotsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Brightspots;
 			};

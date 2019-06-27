@@ -21,6 +21,9 @@ struct Colors {
 
 public class MainColorScheme: MDCSemanticColorScheme {
     
+    let tabBarIconInactive = UIColor.lightGray
+    let tabBarIconActive = UIColor.init(hex: Colors.NIGHT_BLUE)
+    
     override public init() {
         super.init()
         self.primaryColor = UIColor.init(hex: Colors.LIGHT_BLUE)
@@ -29,13 +32,8 @@ public class MainColorScheme: MDCSemanticColorScheme {
         self.backgroundColor = UIColor.init(hex: Colors.WHITE)
         self.surfaceColor = UIColor.init(hex: Colors.NIGHT_BLUE)
         self.errorColor = UIColor.init(hex: Colors.BRIGHT_ORANGE)
-        //        self.primaryColor = UIColor.init(hex:"#00A0E1")
-        //        self.primaryColorVariant = UIColor.init(hex: "#55CCFF")
-        //        self.secondaryColor = UIColor.init(hex: "#BD10E0")
-        //        self.backgroundColor = UIColor.init(hex: "#FFFFFF")
-        //        self.surfaceColor = UIColor.init(hex: "#FFFFFF")
-        //        self.errorColor = UIColor.init(hex: "#F42B3C")
-        
+        self.onSurfaceColor = UIColor.init(hex: Colors.SKY_BLUE)
+        self.onBackgroundColor = UIColor.init(hex: Colors.NIGHT_BLUE)
     }
     
     override public init(defaults: MDCColorSchemeDefaults) {
@@ -79,6 +77,8 @@ public class ChartColorScheme: MDCSemanticColorScheme {
         self.backgroundColor = UIColor.init(hex: Colors.WHITE)
         self.surfaceColor = UIColor.init(hex: Colors.NIGHT_BLUE)
         self.errorColor = UIColor.init(hex: Colors.BRIGHT_ORANGE)
+        self.onSurfaceColor = UIColor.init(hex: Colors.SKY_BLUE)
+        self.onBackgroundColor = UIColor.init(hex: Colors.NIGHT_BLUE)
     }
     
     override public init(defaults: MDCColorSchemeDefaults) {

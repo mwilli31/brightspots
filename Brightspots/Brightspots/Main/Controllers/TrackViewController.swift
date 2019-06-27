@@ -60,10 +60,10 @@ class TrackViewController: UIViewController {
         loadAndPaintCurrentBgData()
         stackView.addRow(simpleChartRow)
         simpleChartRow.heightAnchor.constraint(equalTo: simpleChartRow.widthAnchor, multiplier: 1.3).isActive = true
-//        stackView.setTapHandler(forRow: simpleChartRow) { [weak self] _ in
-//            guard let self = self else { return }
-////            self.loadAndPaintChartData(forceRepaint: false)
-//        }
+        stackView.setTapHandler(forRow: simpleChartRow) { [weak self] _ in
+            guard let self = self else { return }
+            self.loadAndPaintChartData(forceRepaint: false)
+        }
     }
     
     
@@ -118,9 +118,15 @@ class TrackViewController: UIViewController {
     
     fileprivate func paintChartData(todaysData : [BloodSugar], yesterdaysData : [BloodSugar]) {
         
-        _ = todaysData + PredictionService.singleton.nextHourGapped
-        
-        self.simpleChartRow.reloadData(fromNightscout: todaysData)
+        var prediction = todaysData
+        print("here")
+        print(prediction.last!.timestamp)
+        print(prediction.last!.value)
+        prediction += PredictionService.singleton.nextHourGapped
+        print(prediction.last!.timestamp)
+        print(prediction.last!.value)
+
+        self.simpleChartRow.reloadData(fromNightscout: todaysData, prediction: prediction, yesterday: yesterdaysData)
 
     }
 }

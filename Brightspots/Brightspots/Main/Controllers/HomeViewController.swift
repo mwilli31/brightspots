@@ -29,6 +29,7 @@ class HomeViewController: UIViewController {
         segmentController.selectedSegmentIndex = 0
         let font = UIFont.systemFont(ofSize: 18)
         segmentController.setTitleTextAttributes([NSAttributedString.Key.font: font], for: .normal)
+        segmentController.tintColor = mainColorScheme.surfaceColor
         //setting the segment which is initially selected
         segmentController.addTarget(self, action: #selector(selected), for: .valueChanged)
         //calling the selector method

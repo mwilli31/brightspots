@@ -12,13 +12,17 @@ import ScrollableGraphView
 class SimpleChart : ScrollableGraphViewDataSource {
     // MARK: Data Properties
     
-    private var numberOfDataItems = (24*60)/5 + 1
+    private var numberOfDataItems = ((24*60)/5 + 1)
+//    private var numberOfDataItems = 0
     // Labels for the x-axis
     private lazy var xAxisLabels: [String] =  self.generateTimeLabels()
     
     // Test Data for graphs with multiple plots
     private lazy var blueLinePlotData: [Double] = self.generateRandomData(numberOfDataItems, variance: 100.0, from: 160.0)
-//    private lazy var orangeLinePlotData: [Double] =  self.generateRandomData(self.numberOfDataItems, max: 200, shouldIncludeOutliers: false)
+    // Test Data for graphs with multiple plots
+    private lazy var predLinePlotData: [Double] = self.generateRandomData(numberOfDataItems, variance: 100.0, from: 160.0)
+    private lazy var yesterdayLinePlotData: [Double] = self.generateRandomData(numberOfDataItems, variance: 100.0, from: 160.0)
+
     private lazy var rangeLinePlotData: [Double] =  self.generateRangeData(self.numberOfDataItems)
     private lazy var bigRangeLinePlotData: [Double] =  self.generateBigRangeData(self.numberOfDataItems)
     
@@ -36,6 +40,10 @@ class SimpleChart : ScrollableGraphViewDataSource {
         // Data for graphs
         case "multiBlue":
             return blueLinePlotData[pointIndex]
+        case "prediction":
+            return predLinePlotData[pointIndex]
+        case "yesterday":
+            return yesterdayLinePlotData[pointIndex]
         case "range":
             return rangeLinePlotData[pointIndex]
         case "bigRange":
@@ -58,78 +66,36 @@ class SimpleChart : ScrollableGraphViewDataSource {
     // MARK: Graph
     // ##################################
     
-    
-    
-    // min: 0
-    // max 50
-    // Will not adapt min and max reference lines to range of visible points
-    // no animations
-//    func createDotGraph(_ frame: CGRect) -> ScrollableGraphView {
-//
-//        let graphView = ScrollableGraphView(frame: frame, dataSource: self)
-//
-//        // Setup the plot
-//        let plot = DotPlot(identifier: "dot")
-//
-//        plot.dataPointSize = 5
-//        plot.dataPointFillColor = UIColor.white
-//
-//        // Setup the reference lines
-//        let referenceLines = ReferenceLines()
-//        referenceLines.referenceLineLabelFont = UIFont.boldSystemFont(ofSize: 10)
-//        referenceLines.referenceLineColor = UIColor.white.withAlphaComponent(0.5)
-//        referenceLines.referenceLineLabelColor = UIColor.white
-//        referenceLines.referenceLinePosition = ScrollableGraphViewReferenceLinePosition.both
-//
-//        referenceLines.shouldShowLabels = false
-//
-//        // Setup the graph
-//        graphView.backgroundFillColor = hexStringToUIColor(hex: "#00BFFF")
-//        graphView.shouldAdaptRange = false
-//        graphView.shouldAnimateOnAdapt = false
-//        graphView.shouldAnimateOnStartup = false
-//
-//        graphView.dataPointSpacing = 25
-//        graphView.rangeMax = 50
-//        graphView.rangeMin = 0
-//
-//        // Add everything
-//        graphView.addPlot(plot: plot)
-//        graphView.addReferenceLines(referenceLines: referenceLines)
-//        return graphView
-//    }
-    
     //
     func createSimpleGraph(_ frame: CGRect) -> ScrollableGraphView {
         //number of ms in a day
-//        numberOfDataItems = 24*60*60*1000
         let date = Date()
         let calendar = Calendar.current
         let hour = calendar.component(.hour, from: date)
-        numberOfDataItems = hour + ((hour-1) * 12)
-        print(numberOfDataItems)
+        let min = calendar.component(.minute, from: date)
+        let interval = 5
+        let intervals = 60 / interval  //every 5 minutes
+        numberOfDataItems = (min/interval) + ((hour+1) * intervals)
         
         let graphView = ScrollableGraphView(frame: frame, dataSource: self)
         // Setup the first line plot.
         let blueLinePlot = DotPlot(identifier: "multiBlue")
-        
-//        blueLinePlot.lineWidth = Constants.Size.LINE_CHART_LINE
-//        blueLinePlot.lineColor = chartColorScheme.primaryColor
-//        blueLinePlot.lineStyle = ScrollableGraphViewLineStyle.smooth
-//
-//        blueLinePlot.shouldFill = false
-//        blueLinePlot.fillType = ScrollableGraphViewFillType.solid
-//        blueLinePlot.fillColor = .white
-
         blueLinePlot.dataPointSize = Constants.Size.LINE_CHART_LINE
         blueLinePlot.dataPointFillColor = chartColorScheme.primaryColor
         blueLinePlot.dataPointType = ScrollableGraphViewDataPointType.circle
-        
-//        blueLinePlot.shouldFill = false
-//        blueLinePlot.fillType = ScrollableGraphViewFillType.solid
-//        blueLinePlot.fillColor = .white
-        
         blueLinePlot.adaptAnimationType = ScrollableGraphViewAnimationType.elastic
+        
+        let predLinePlot = DotPlot(identifier: "prediction")
+        predLinePlot.dataPointSize = Constants.Size.LINE_CHART_LINE_PRED
+        predLinePlot.dataPointFillColor = chartColorScheme.secondaryColor.withAlphaComponent(0.7)
+        predLinePlot.dataPointType = ScrollableGraphViewDataPointType.circle
+        predLinePlot.adaptAnimationType = ScrollableGraphViewAnimationType.elastic
+        
+//        let yesterdayLinePlot = DotPlot(identifier: "yesterday")
+//        yesterdayLinePlot.dataPointSize = Constants.Size.LINE_CHART_LINE_PRED
+//        yesterdayLinePlot.dataPointFillColor = chartColorScheme.primaryColorVariant.withAlphaComponent(0.5)
+//        yesterdayLinePlot.dataPointType = ScrollableGraphViewDataPointType.circle
+//        yesterdayLinePlot.adaptAnimationType = ScrollableGraphViewAnimationType.elastic
         
         let mainRangeLinePlot = LinePlot(identifier: "range")
         
@@ -147,7 +113,6 @@ class SimpleChart : ScrollableGraphViewDataSource {
         bigRangeLinePlot.lineWidth = LINE_CHART_BIG_GLUCOSE_RANGE
         bigRangeLinePlot.lineColor = chartColorScheme.bigRangeLineColor
         bigRangeLinePlot.lineStyle = ScrollableGraphViewLineStyle.smooth
-//        bigRangeLinePlot.animationDuration = 0.001
         
         bigRangeLinePlot.shouldFill = false
         bigRangeLinePlot.fillType = ScrollableGraphViewFillType.gradient
@@ -158,6 +123,7 @@ class SimpleChart : ScrollableGraphViewDataSource {
         referenceLinesRange.referenceLineColor = chartColorScheme.referenceLineColor
         referenceLinesRange.referenceLineThickness = Constants.Size.LINE_CHART_REFERENCE_LINE
         referenceLinesRange.referenceLineLabelColor = chartColorScheme.onSurfaceColor
+        referenceLinesRange.dataPointLabelColor = chartColorScheme.onSurfaceColor
         referenceLinesRange.positionType = ReferenceLinePositioningType.absolute
         referenceLinesRange.absolutePositions = [70,80,120,200]
         referenceLinesRange.dataPointLabelTopMargin = 20.0
@@ -178,11 +144,17 @@ class SimpleChart : ScrollableGraphViewDataSource {
         graphView.rightmostPointPadding = 50.0
         graphView.direction = ScrollableGraphViewDirection.rightToLeft
         graphView.shouldAnimateOnStartup = false
-                
+        
+        //generate static data
+        rangeLinePlotData =  self.generateRangeData(self.numberOfDataItems)
+        bigRangeLinePlotData =  self.generateBigRangeData(self.numberOfDataItems)
+        
         // Add everything to the graph.
         graphView.addReferenceLines(referenceLines: referenceLinesRange)
         graphView.addPlot(plot: bigRangeLinePlot)
         graphView.addPlot(plot: mainRangeLinePlot)
+        graphView.addPlot(plot: predLinePlot)
+//        graphView.addPlot(plot: yesterdayLinePlot)
         graphView.addPlot(plot: blueLinePlot)
         return graphView
     }
@@ -231,7 +203,7 @@ class SimpleChart : ScrollableGraphViewDataSource {
 
         //always current days hours
         var labels = [String]()
-        for i in 0 ..< hour+1 {
+        for i in 0 ..< hour+2 {
             print(i)
             if(i != hour) {
                 for j in 0 ..< 1 {
@@ -248,7 +220,7 @@ class SimpleChart : ScrollableGraphViewDataSource {
         return labels
     }
     
-    func reload(data: [Double]) {
+    func reload(data: [Double], prediction: [Double], yesterday: [Double]) {
         // Currently changing the number of data items is not supported.
         // It is only possible to change the the actual values of the data before reloading.
         // numberOfDataItems = 30
@@ -258,8 +230,7 @@ class SimpleChart : ScrollableGraphViewDataSource {
         
         // Test Data for graphs with multiple plots
         blueLinePlotData = data
-        rangeLinePlotData =  self.generateRangeData(self.numberOfDataItems)
-        bigRangeLinePlotData =  self.generateBigRangeData(self.numberOfDataItems)
-        
+        predLinePlotData = prediction
+//        yesterdayLinePlotData = yesterday
     }
 }
