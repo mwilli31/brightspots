@@ -66,6 +66,7 @@ public class SimpleChartRowView: MDCCard {
         currentBGUnitLabel.textAlignment = NSTextAlignment.left
         currentBGUnitLabel.font = Constants.Font.CURRENT_BG_UNIT_LABEL_FONT
         currentBGUnitLabel.text = "mg/dl"
+        currentBGUnitLabel.textColor = mainColorScheme.onSurfaceColor
         addSubview(currentBGUnitLabel)
 
         bgDeltaLabel.textAlignment = NSTextAlignment.left
@@ -114,10 +115,12 @@ public class SimpleChartRowView: MDCCard {
         })
     }
     
-    func reloadData(fromNightscout:[BloodSugar]) {
+    func reloadData(fromNightscout:[BloodSugar], prediction:[BloodSugar], yesterday:[BloodSugar]) {
         //prepare data for chart
         //initialize size of array
         var chartArray = Array(repeating: 0.0, count: chart.numberOfPoints())
+        var chartArray2 = Array(repeating: 0.0, count: chart.numberOfPoints())
+        var chartArray3 = Array(repeating: 0.0, count: chart.numberOfPoints())
         var arrIndex: Int
         var date: Date
         let calendar = Calendar.current
@@ -131,9 +134,24 @@ public class SimpleChartRowView: MDCCard {
             arrIndex = (hour * 60 + min) / 5
             chartArray.insert(Double(fromNightscout[i].value), at: arrIndex)
         }
-        print(chartArray)
+        for i in 0 ..< prediction.count {
+            //find how the timestamp fits in the chartArray index
+            date = prediction[i].date
+            hour = calendar.component(.hour, from: date)
+            min = calendar.component(.minute, from: date)
+            arrIndex = (hour * 60 + min) / 5
+            chartArray2.insert(Double(prediction[i].value), at: arrIndex)
+        }
+//        for i in 0 ..< yesterday.count {
+//            //find how the timestamp fits in the chartArray index
+//            date = yesterday[i].date
+//            hour = calendar.component(.hour, from: date)
+//            min = calendar.component(.minute, from: date)
+//            arrIndex = (hour * 60 + min) / 5
+//            chartArray3.insert(Double(yesterday[i].value), at: arrIndex)
+//        }
         //have the chart reload
-        chart.reload(data: chartArray)
+        chart.reload(data: chartArray, prediction: chartArray2, yesterday: chartArray3)
         graphView.reload()
     }
     

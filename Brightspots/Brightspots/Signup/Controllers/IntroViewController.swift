@@ -21,21 +21,21 @@ class IntroViewController: UIViewController {
                            title: "Discover more Brightspots",
                            description: "Let Brightspots help you understand how your habits effect blood sugars and daily wellbeing",
                            pageIcon: UIImage(named:"logo")!,
-                           color: UIColor.init(hex: "#D24934"),
+                           color: UIColor.init(hex: Colors.LIGHT_BLUE),
                            titleColor: UIColor.white, descriptionColor: UIColor.white, titleFont: Constants.Font.INTRO_TITLE, descriptionFont: Constants.Font.INTRO_DESCRIPTION),
         
         OnboardingItemInfo(informationImage: UIImage(named:"logo")!,
                            title: "Build stronger routines",
                            description: "Currated and proven journeys sourced from care teams and the community help you build new daily routines and incrementally improve diabetes management",
                            pageIcon: UIImage(named:"logo")!,
-                           color: UIColor.init(hex: "#B0D8DA"),
+                           color: UIColor.init(hex: Colors.LIGHT_GREEN),
                            titleColor: UIColor.white, descriptionColor: UIColor.white, titleFont: Constants.Font.INTRO_TITLE, descriptionFont: Constants.Font.INTRO_DESCRIPTION),
         
         OnboardingItemInfo(informationImage: UIImage(named:"logo")!,
                            title: "Share, Socialize, Support",
                            description: "We are all here for one another. Work together, empathize together, improve together. #WEARENOTWAITING",
                            pageIcon: UIImage(named:"logo")!,
-                           color: UIColor.init(hex: "#633D86"),
+                           color: UIColor.init(hex: Colors.BRIGHT_ORANGE),
                            titleColor: UIColor.white, descriptionColor: UIColor.white, titleFont: Constants.Font.INTRO_TITLE, descriptionFont: Constants.Font.INTRO_DESCRIPTION),
         
         ]
