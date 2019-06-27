@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5100DAD2C8E7413E826813B5 /* Pods_BrightspotsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FC2C72A54E25218E822A63 /* Pods_BrightspotsTests.framework */; };
+		5B9DA33BC6DC9A7FAE216EC9 /* Pods_Brightspots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7728331E13553501C127623 /* Pods_Brightspots.framework */; };
 		7543C913222F47E80025D020 /* SimpleChartRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C912222F47E80025D020 /* SimpleChartRowView.swift */; };
 		7543C916222F5F250025D020 /* Examples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C915222F5F250025D020 /* Examples.swift */; };
 		7543C91C2231E0E80025D020 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7543C91B2231E0E80025D020 /* Constants.swift */; };
@@ -65,8 +67,6 @@
 		75F99CDB2246EF97002C5120 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F99CDA2246EF97002C5120 /* Login.storyboard */; };
 		75F99CDE22470545002C5120 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F99CDD22470545002C5120 /* LoginViewController.swift */; };
 		75FDCD1422C005E90085D48C /* SimpleBaseNotificationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FDCD1322C005E90085D48C /* SimpleBaseNotificationCard.swift */; };
-		9A8B11800C3A95A689C791C7 /* Pods_BrightspotsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C00228A79B668EAD0E806D92 /* Pods_BrightspotsTests.framework */; };
-		CF420AB8A56B60A7387483FE /* Pods_Brightspots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F085296DA7319264C4BE59B3 /* Pods_Brightspots.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,8 +80,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2ED9E0C1CA54F03E1B4F5E8B /* Pods-BrightspotsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrightspotsTests.debug.xcconfig"; path = "Target Support Files/Pods-BrightspotsTests/Pods-BrightspotsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		42A7595286840F4DACC9A98C /* Pods_BrightspotsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrightspotsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5194D63CC05F9AF93EAA8E /* Pods-BrightspotsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrightspotsTests.debug.xcconfig"; path = "Target Support Files/Pods-BrightspotsTests/Pods-BrightspotsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4083E7344E27775DDCBC8485 /* Pods-BrightspotsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrightspotsTests.release.xcconfig"; path = "Target Support Files/Pods-BrightspotsTests/Pods-BrightspotsTests.release.xcconfig"; sourceTree = "<group>"; };
+		57A33AAAAA3CEF354DDCCC2B /* Pods-Brightspots.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brightspots.debug.xcconfig"; path = "Target Support Files/Pods-Brightspots/Pods-Brightspots.debug.xcconfig"; sourceTree = "<group>"; };
 		7543C912222F47E80025D020 /* SimpleChartRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleChartRowView.swift; sourceTree = "<group>"; };
 		7543C915222F5F250025D020 /* Examples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Examples.swift; sourceTree = "<group>"; };
 		7543C91B2231E0E80025D020 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -144,13 +145,9 @@
 		75F99CDA2246EF97002C5120 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		75F99CDD22470545002C5120 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		75FDCD1322C005E90085D48C /* SimpleBaseNotificationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBaseNotificationCard.swift; sourceTree = "<group>"; };
-		8DA34C85F0A4264FBF257C2A /* Pods-BrightspotsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrightspotsUITests.debug.xcconfig"; path = "Target Support Files/Pods-BrightspotsUITests/Pods-BrightspotsUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		9174CDBE1E4A360803B5E905 /* Pods-Brightspots.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brightspots.release.xcconfig"; path = "Target Support Files/Pods-Brightspots/Pods-Brightspots.release.xcconfig"; sourceTree = "<group>"; };
-		97001F3ADFABC5EAEC370C7A /* Pods-Brightspots.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brightspots.debug.xcconfig"; path = "Target Support Files/Pods-Brightspots/Pods-Brightspots.debug.xcconfig"; sourceTree = "<group>"; };
-		A7F16549D24C823379C2D5F6 /* Pods-BrightspotsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrightspotsTests.release.xcconfig"; path = "Target Support Files/Pods-BrightspotsTests/Pods-BrightspotsTests.release.xcconfig"; sourceTree = "<group>"; };
-		C00228A79B668EAD0E806D92 /* Pods_BrightspotsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrightspotsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF21E955338702C4F5D12565 /* Pods-BrightspotsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrightspotsUITests.release.xcconfig"; path = "Target Support Files/Pods-BrightspotsUITests/Pods-BrightspotsUITests.release.xcconfig"; sourceTree = "<group>"; };
-		F085296DA7319264C4BE59B3 /* Pods_Brightspots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brightspots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C12387F41CE4332CB568FF80 /* Pods-Brightspots.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brightspots.release.xcconfig"; path = "Target Support Files/Pods-Brightspots/Pods-Brightspots.release.xcconfig"; sourceTree = "<group>"; };
+		D5FC2C72A54E25218E822A63 /* Pods_BrightspotsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrightspotsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7728331E13553501C127623 /* Pods_Brightspots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brightspots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF420AB8A56B60A7387483FE /* Pods_Brightspots.framework in Frameworks */,
+				5B9DA33BC6DC9A7FAE216EC9 /* Pods_Brightspots.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A8B11800C3A95A689C791C7 /* Pods_BrightspotsTests.framework in Frameworks */,
+				5100DAD2C8E7413E826813B5 /* Pods_BrightspotsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +331,7 @@
 				758E5F38222C857900D77169 /* BrightspotsTests */,
 				758E5F20222C857700D77169 /* Products */,
 				B65411CDDE2CA3975C781EC5 /* Pods */,
-				B5EFF3149477C2CA34AEFBF8 /* Frameworks */,
+				E7536119D8595A59F072A6FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -443,27 +440,24 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		B5EFF3149477C2CA34AEFBF8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F085296DA7319264C4BE59B3 /* Pods_Brightspots.framework */,
-				C00228A79B668EAD0E806D92 /* Pods_BrightspotsTests.framework */,
-				42A7595286840F4DACC9A98C /* Pods_BrightspotsUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		B65411CDDE2CA3975C781EC5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				97001F3ADFABC5EAEC370C7A /* Pods-Brightspots.debug.xcconfig */,
-				9174CDBE1E4A360803B5E905 /* Pods-Brightspots.release.xcconfig */,
-				2ED9E0C1CA54F03E1B4F5E8B /* Pods-BrightspotsTests.debug.xcconfig */,
-				A7F16549D24C823379C2D5F6 /* Pods-BrightspotsTests.release.xcconfig */,
-				8DA34C85F0A4264FBF257C2A /* Pods-BrightspotsUITests.debug.xcconfig */,
-				DF21E955338702C4F5D12565 /* Pods-BrightspotsUITests.release.xcconfig */,
+				57A33AAAAA3CEF354DDCCC2B /* Pods-Brightspots.debug.xcconfig */,
+				C12387F41CE4332CB568FF80 /* Pods-Brightspots.release.xcconfig */,
+				1D5194D63CC05F9AF93EAA8E /* Pods-BrightspotsTests.debug.xcconfig */,
+				4083E7344E27775DDCBC8485 /* Pods-BrightspotsTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E7536119D8595A59F072A6FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7728331E13553501C127623 /* Pods_Brightspots.framework */,
+				D5FC2C72A54E25218E822A63 /* Pods_BrightspotsTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -473,11 +467,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 758E5F49222C857900D77169 /* Build configuration list for PBXNativeTarget "Brightspots" */;
 			buildPhases = (
-				C8598F4A31BB6F3441AB0142 /* [CP] Check Pods Manifest.lock */,
+				3AE14D31CEE17B730F00ABCE /* [CP] Check Pods Manifest.lock */,
 				758E5F1B222C857700D77169 /* Sources */,
 				758E5F1C222C857700D77169 /* Frameworks */,
 				758E5F1D222C857700D77169 /* Resources */,
-				50954DFCF982BB548626E735 /* [CP] Embed Pods Frameworks */,
+				C3E2A413207538E1230E993C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -492,7 +486,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 758E5F4C222C857900D77169 /* Build configuration list for PBXNativeTarget "BrightspotsTests" */;
 			buildPhases = (
-				572C71FD6427C496D1D12E9F /* [CP] Check Pods Manifest.lock */,
+				BE91BE88C4EE2AB4CE1E53BB /* [CP] Check Pods Manifest.lock */,
 				758E5F31222C857900D77169 /* Sources */,
 				758E5F32222C857900D77169 /* Frameworks */,
 				758E5F33222C857900D77169 /* Resources */,
@@ -572,24 +566,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		50954DFCF982BB548626E735 /* [CP] Embed Pods Frameworks */ = {
+		3AE14D31CEE17B730F00ABCE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Brightspots/Pods-Brightspots-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Brightspots/Pods-Brightspots-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Brightspots-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Brightspots/Pods-Brightspots-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		572C71FD6427C496D1D12E9F /* [CP] Check Pods Manifest.lock */ = {
+		BE91BE88C4EE2AB4CE1E53BB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -611,26 +610,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C8598F4A31BB6F3441AB0142 /* [CP] Check Pods Manifest.lock */ = {
+		C3E2A413207538E1230E993C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brightspots/Pods-Brightspots-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Brightspots-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-Brightspots/Pods-Brightspots-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Brightspots/Pods-Brightspots-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -849,7 +843,7 @@
 		};
 		758E5F4A222C857900D77169 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97001F3ADFABC5EAEC370C7A /* Pods-Brightspots.debug.xcconfig */;
+			baseConfigurationReference = 57A33AAAAA3CEF354DDCCC2B /* Pods-Brightspots.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -870,7 +864,7 @@
 		};
 		758E5F4B222C857900D77169 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9174CDBE1E4A360803B5E905 /* Pods-Brightspots.release.xcconfig */;
+			baseConfigurationReference = C12387F41CE4332CB568FF80 /* Pods-Brightspots.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -891,7 +885,7 @@
 		};
 		758E5F4D222C857900D77169 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2ED9E0C1CA54F03E1B4F5E8B /* Pods-BrightspotsTests.debug.xcconfig */;
+			baseConfigurationReference = 1D5194D63CC05F9AF93EAA8E /* Pods-BrightspotsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -913,7 +907,7 @@
 		};
 		758E5F4E222C857900D77169 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7F16549D24C823379C2D5F6 /* Pods-BrightspotsTests.release.xcconfig */;
+			baseConfigurationReference = 4083E7344E27775DDCBC8485 /* Pods-BrightspotsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

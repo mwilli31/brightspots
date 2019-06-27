@@ -31,7 +31,7 @@
 		1153D8CCEE8054AEF6BCC4B3E1DEF1C3 /* Auth0.h in Headers */ = {isa = PBXBuildFile; fileRef = CE6C4144E9B4EEA99D1E60512D87CDDF /* Auth0.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11B5D99CC0A88FFAECED653ED3611C51 /* SafariAuthenticationSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328FDFAAE245860A1A457E1A64391294 /* SafariAuthenticationSession.swift */; };
 		11F6694E6C783A3D7C59BAE86768609F /* MaterialApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = B783665400E7FB86F11FA1E2511D75A2 /* MaterialApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		127941A7F892BBC38697ACA1ECF688CF /* Pods-Brightspots-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 773A7CE390B6EEBECBD6CFC6BF50EDCD /* Pods-Brightspots-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		127941A7F892BBC38697ACA1ECF688CF /* Pods-Brightspots-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5464C2B2B255DDAD5CC208D843234690 /* Pods-Brightspots-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		138324E22DD1834D105978DA1F585FC6 /* UIFont+MaterialTypography.h in Headers */ = {isa = PBXBuildFile; fileRef = 582DBD531A3AE213E9E808665F844727 /* UIFont+MaterialTypography.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		149BEBB8538BF862A49BC20F2175F419 /* MDCFloatingButton+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 60162F24B97381965F95A65FE7FE35BD /* MDCFloatingButton+Animation.m */; };
 		158F6BE940A0288DBA3988C3BB8AFAD3 /* MDCLegacyInkLayer+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 06043ED698C96B676363CE8B43EC63C9 /* MDCLegacyInkLayer+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -66,7 +66,6 @@
 		299935A5DA1AA303D1D4BC8714BCAC4D /* MDCStatefulRippleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 99DBCA35F6CF4D475909E0BAD4404D47 /* MDCStatefulRippleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29F477B426E97AC81C2D867965814EE7 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = E81642B90B539E6104AD021911B6747E /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B1139931C43B61396CE4C20FA892124 /* MDCCutCornerTreatment.h in Headers */ = {isa = PBXBuildFile; fileRef = B056C13FB1CB147339DE313DD2F6D320 /* MDCCutCornerTreatment.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2B5505F7B50CF6E6B093BEEC2CF697D2 /* Pods-BrightspotsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2882594D1F16AF3F2F5D5B73626FB098 /* Pods-BrightspotsUITests-dummy.m */; };
 		2BD23BE0907A35EFE8A3D4B78CCACC43 /* MDCCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 683666F8F0DB422027052954B860DD14 /* MDCCard.m */; };
 		2D005F1D953BDFB61FE6AB766B93B601 /* AloeStackView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 127885ADE8389CD4048BA0F0FA533016 /* AloeStackView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E11A69AE9FC39530B4E8EB3F6AA22D9 /* MDCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DED52EBFE6AA97B394F0E8534481914 /* MDCButton.m */; };
@@ -121,9 +120,9 @@
 		51FF952833CEC9B18D7409D9DDCB1E35 /* MDCLegacyFontScheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 078F6FC8E9DE122809698F2A4DE7A35E /* MDCLegacyFontScheme.m */; };
 		5239CF5433E9735093019851C7E39FA8 /* MDCFloatingActionButtonThemer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F58505DCD9C2E8984746B8760F07E12 /* MDCFloatingActionButtonThemer.m */; };
 		52C3EA5B5D8DFD524A187D475D8C1EC3 /* ScrollableGraphViewDrawingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EB4DDD9D70757022FFB1B7703647DC /* ScrollableGraphViewDrawingDelegate.swift */; };
-		52F6B9BAAE308E48C4607C1DD2A215AB /* Pods-Brightspots-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E411C4CD377DCF3C5E8DCC57137FE152 /* Pods-Brightspots-dummy.m */; };
+		52F6B9BAAE308E48C4607C1DD2A215AB /* Pods-Brightspots-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D21275EA70AF346B5E1CEF3F08D594 /* Pods-Brightspots-dummy.m */; };
 		53462C4BB8FFA0116511AD97A1BDB252 /* Auth0.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6A85C661161BE847F768D2FC81C686 /* Auth0.swift */; };
-		53BC06516780A192DDDBDD10FDBCB79D /* Pods-BrightspotsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D359CD33EECA7448E348F30B54EC65F /* Pods-BrightspotsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53BC06516780A192DDDBDD10FDBCB79D /* Pods-BrightspotsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCE3E0162994331B429788381DBFA0A8 /* Pods-BrightspotsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		541DDA5936B53A4927FEF5553202D81A /* UIFontDescriptor+MaterialTypography.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F235F85D8E0FBBB4E6527960D0A34F /* UIFontDescriptor+MaterialTypography.m */; };
 		54A307570F0F863102CF24D61ECB7DDF /* MDCPaletteNames.h in Headers */ = {isa = PBXBuildFile; fileRef = 82279F316E9CF19C90D1FA1C129727AD /* MDCPaletteNames.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		54EDDCB41B53E59FFAB5215E4A4204D0 /* MDCButtonTypographyThemer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F71F0D07E12F33EEEEF9E7EF968CC8B /* MDCButtonTypographyThemer.m */; };
@@ -140,7 +139,6 @@
 		5C897D085E32B2D9EA58F27501D27465 /* MDCPillShapeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = C3016B2B5E63DD824D931701440A24C5 /* MDCPillShapeGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DCB0CE706A7DA985528C54626065D5C /* MDCMath.h in Headers */ = {isa = PBXBuildFile; fileRef = BC98428658D493BDD54ECDA8D8F69EB7 /* MDCMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5E0E243287EC79D53AD3B99132B1031C /* MDCFontScaler.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0A6EB3D901909D1BB3ADBB53F3B14A /* MDCFontScaler.m */; };
-		5E318FA835F3BA4560F4B3D095B47F2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9420DABDB10E571A5E0C7C5D4709382 /* Foundation.framework */; };
 		5EC2BB6E6629008C341F494055C265A5 /* Tappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80F4891A4A24799C255C32F5E6B79C4 /* Tappable.swift */; };
 		60E24CE3FB56707214689644BB4BA7B9 /* DotDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE949A1A898C62F119EFBFA305F05759 /* DotDrawingLayer.swift */; };
 		61102ECA9EF39123535F9E39132BCF18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9420DABDB10E571A5E0C7C5D4709382 /* Foundation.framework */; };
@@ -248,7 +246,6 @@
 		A75B41EFC9FB337B4B8F2975519E9930 /* MaterialIcons+ic_check_circle.h in Headers */ = {isa = PBXBuildFile; fileRef = 11E7FEBD28A525A4973DAAC5858EE76F /* MaterialIcons+ic_check_circle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A82284A825F11602968CF385F9EDF3F0 /* MDFRTL.m in Sources */ = {isa = PBXBuildFile; fileRef = C740ABA535C875FC2085F98EA1F9E322 /* MDFRTL.m */; };
 		A8DFFD24A39C733AFCEAA54BFAD7A028 /* MDCEdgeTreatment.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1B2A5E4577E44D32951A68557FAEBD /* MDCEdgeTreatment.m */; };
-		A9A163B917E2491EFD45BF0ABF52EFFD /* Pods-BrightspotsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 171F72FA5113F5A611DCC57AC121868F /* Pods-BrightspotsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADBE7923AE1C068FAA8B6EEC8096CEB1 /* MDFTextAccessibility.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDD9501AAFB1EA6DA372E209CFD2EF6 /* MDFTextAccessibility.m */; };
 		AE028A669BDCC596930B9CD7B34C231D /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CC19AB05C1F1420602531509EAE5D15E /* NSArray+PureLayout.m */; };
 		AEB4940A62360BE9CE06DA8B9985BE25 /* MDCContainedButtonColorThemer.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CCC5A081E13237BD2FFC5FE811645B /* MDCContainedButtonColorThemer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -332,7 +329,7 @@
 		E29F998B4C15803C51528E242BFBD133 /* MDFColorCalculations.h in Headers */ = {isa = PBXBuildFile; fileRef = 685DE2DFF664B8B9A442FD0D47F20611 /* MDFColorCalculations.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		E3FCB3008C7B029AF9CF634E2C083385 /* ScrollableGraphViewDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D0598EB99264B2CE8AA8B235778DE7 /* ScrollableGraphViewDrawingLayer.swift */; };
 		E504E8FC46C475541DD432A2F965E56C /* MDCRaisedButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DDF035A810DBEB50EE4EB8DE2C6C439 /* MDCRaisedButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E54E845DFB85904D88A0A05861F80256 /* Pods-BrightspotsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D4CFFB2D260CBBAE93320581B646B /* Pods-BrightspotsTests-dummy.m */; };
+		E54E845DFB85904D88A0A05861F80256 /* Pods-BrightspotsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F264648983C036E898C402E75474026 /* Pods-BrightspotsTests-dummy.m */; };
 		E657BDC5EDAB515562729409A292732B /* BarPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D756A81F9B53B381444978DE95328F5 /* BarPlot.swift */; };
 		E75960719013CE6A25C65B9B1500C8A7 /* NSString+MaterialBidi.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 1AB31D2A03FA5D418C723779113E0AFB /* NSString+MaterialBidi.h */; };
 		E815E1EC4FB9AB09193E8936052513F7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACB504362755B1992C0FD1320CADBA0 /* Result.swift */; };
@@ -411,13 +408,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 55A01F8E987A6E2F7F0ED141A1ECA406;
 			remoteInfo = MDFInternationalization;
-		};
-		A5739A923CE5A15E0EEB0271024FE818 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4497EA0A0D2FA6BAA7B8B4C8C88BCDD6;
-			remoteInfo = "Pods-Brightspots";
 		};
 		B6B08A4BA6E77D739ADBBE43896AF73D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -528,6 +518,7 @@
 		068B459D911005BF149BF47829D30C02 /* WebAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebAuth.swift; path = Auth0/WebAuth.swift; sourceTree = "<group>"; };
 		078F6FC8E9DE122809698F2A4DE7A35E /* MDCLegacyFontScheme.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCLegacyFontScheme.m; path = components/schemes/Typography/src/MDCLegacyFontScheme.m; sourceTree = "<group>"; };
 		08ACEEC3289FFB8D27B03C7A08A6A82B /* MaterialIcons+ic_check_circle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MaterialIcons+ic_check_circle.m"; path = "components/private/Icons/icons/ic_check_circle/src/MaterialIcons+ic_check_circle.m"; sourceTree = "<group>"; };
+		08D21275EA70AF346B5E1CEF3F08D594 /* Pods-Brightspots-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Brightspots-dummy.m"; sourceTree = "<group>"; };
 		08D3476E710A7AB9A996F5072684D35E /* MDCCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCCard.h; path = components/Cards/src/MDCCard.h; sourceTree = "<group>"; };
 		09ECF031C34A89482B04D81BF0607028 /* SimpleKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleKeychain-dummy.m"; sourceTree = "<group>"; };
 		09F662687D7CEC3682D2069361D4764D /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PureLayout.modulemap; sourceTree = "<group>"; };
@@ -538,7 +529,6 @@
 		0C46635750910C0DA3C6373C5D8A9DF4 /* NSArray+MDFUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MDFUtils.h"; path = "src/private/NSArray+MDFUtils.h"; sourceTree = "<group>"; };
 		0C8B30AAB70597E3769D9FC3FF8E4882 /* MaterialShadowElevationsDummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MaterialShadowElevationsDummy.m; path = components/ShadowElevations/src/MaterialShadowElevationsDummy.m; sourceTree = "<group>"; };
 		0D09D4DD189F87B6672417F954445301 /* MDFTextAccessibility-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDFTextAccessibility-prefix.pch"; sourceTree = "<group>"; };
-		0D359CD33EECA7448E348F30B54EC65F /* Pods-BrightspotsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BrightspotsTests-umbrella.h"; sourceTree = "<group>"; };
 		0D756A81F9B53B381444978DE95328F5 /* BarPlot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarPlot.swift; path = Classes/Plots/BarPlot.swift; sourceTree = "<group>"; };
 		0DDD926243D16225775595A1A0FC90DF /* SimpleKeychain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleKeychain.xcconfig; sourceTree = "<group>"; };
 		0E8EDD1447D839A54E6EF40598DC75FA /* MDCButtonColorThemer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCButtonColorThemer.h; path = components/Buttons/src/ColorThemer/MDCButtonColorThemer.h; sourceTree = "<group>"; };
@@ -553,7 +543,6 @@
 		15E8B3924F4D4CECEF4626B592145768 /* MDCFontTextStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCFontTextStyle.h; path = components/Typography/src/MDCFontTextStyle.h; sourceTree = "<group>"; };
 		163AF8974FCAD4ED8971A34A6552109D /* MDCCutCornerTreatment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCCutCornerTreatment.m; path = components/ShapeLibrary/src/MDCCutCornerTreatment.m; sourceTree = "<group>"; };
 		16880D4FBF43D7F4F843EC4B550096DF /* MDCButtonTypographyThemer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCButtonTypographyThemer.h; path = components/Buttons/src/TypographyThemer/MDCButtonTypographyThemer.h; sourceTree = "<group>"; };
-		171F72FA5113F5A611DCC57AC121868F /* Pods-BrightspotsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BrightspotsUITests-umbrella.h"; sourceTree = "<group>"; };
 		177F0A462EDD4193FD9A4ECFDC1128CA /* Loggable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Loggable.swift; path = Auth0/Loggable.swift; sourceTree = "<group>"; };
 		17AD11089BB8E23C3437682DEE979597 /* Telemetry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Telemetry.swift; path = Auth0/Telemetry.swift; sourceTree = "<group>"; };
 		1903D93AD919747186CE0C72786AA4E8 /* AloeStackView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AloeStackView.xcconfig; sourceTree = "<group>"; };
@@ -566,14 +555,14 @@
 		1C3A2ACCD690E26E614E90E4D115B8EB /* MDCCornerTreatment+CornerTypeInitalizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MDCCornerTreatment+CornerTypeInitalizer.m"; path = "components/ShapeLibrary/src/MDCCornerTreatment+CornerTypeInitalizer.m"; sourceTree = "<group>"; };
 		1D0ED52C4A5A35FF3B8660F014881076 /* MaterialTypographyScheme.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialTypographyScheme.h; path = components/schemes/Typography/src/MaterialTypographyScheme.h; sourceTree = "<group>"; };
 		1DED52EBFE6AA97B394F0E8534481914 /* MDCButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCButton.m; path = components/Buttons/src/MDCButton.m; sourceTree = "<group>"; };
+		1E0CF6EC2235D2D24A79EF38F311C5A8 /* Pods-BrightspotsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BrightspotsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1EC09C37287813484A6BA2713017A8BE /* MDCShapeScheme.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCShapeScheme.h; path = components/schemes/Shape/src/MDCShapeScheme.h; sourceTree = "<group>"; };
 		20FFA6859AC1A9EAB57945D25760E87F /* ScrollableGraphView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ScrollableGraphView.modulemap; sourceTree = "<group>"; };
+		2153D075E1B2F0091A656CDB0871E21A /* Pods-Brightspots-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Brightspots-frameworks.sh"; sourceTree = "<group>"; };
 		21C73E583F56CC39B6AD8DDAF5568781 /* ic_check_circle@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_check_circle@3x.png"; path = "components/private/Icons/icons/ic_check_circle/src/MaterialIcons_ic_check_circle.bundle/ic_check_circle@3x.png"; sourceTree = "<group>"; };
 		229F175C2783621C3CBB6445C9B60616 /* UIFont+MaterialScalable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+MaterialScalable.m"; path = "components/Typography/src/UIFont+MaterialScalable.m"; sourceTree = "<group>"; };
-		231B0507933FEEF8DE431BADA6623128 /* Pods_BrightspotsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BrightspotsUITests.framework; path = "Pods-BrightspotsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		239EE28541F03F303DE07E53F5AA2471 /* MDCTextButtonColorThemer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextButtonColorThemer.m; path = components/Buttons/src/ColorThemer/MDCTextButtonColorThemer.m; sourceTree = "<group>"; };
 		23BEA7B4C5EECE60FD1B327A57FCE177 /* MDCPathGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCPathGenerator.h; path = components/Shapes/src/MDCPathGenerator.h; sourceTree = "<group>"; };
-		248BADA16F6B62919D88A80711B7F6C2 /* Pods-BrightspotsUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BrightspotsUITests-Info.plist"; sourceTree = "<group>"; };
 		24E62A141ECE6AC85C8B6B8048178B5B /* SimpleKeychain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimpleKeychain.modulemap; sourceTree = "<group>"; };
 		24E7E8D5C6AB16C9F2062D091AFFB32E /* MDCShadowLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCShadowLayer.h; path = components/ShadowLayer/src/MDCShadowLayer.h; sourceTree = "<group>"; };
 		25A24B27E949223E77EF6B951064671F /* FontAwesomeStateRequirement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeStateRequirement.swift; path = FontAwesome/FontAwesomeStateRequirement.swift; sourceTree = "<group>"; };
@@ -583,13 +572,10 @@
 		278F5C9C0BB5989D7048D8A74405C283 /* MDCCardCollectionCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCCardCollectionCell.m; path = components/Cards/src/MDCCardCollectionCell.m; sourceTree = "<group>"; };
 		27C892E3B8E90907BC298768CC7DA7CE /* MDCRectangleShapeGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCRectangleShapeGenerator.h; path = components/Shapes/src/MDCRectangleShapeGenerator.h; sourceTree = "<group>"; };
 		28727D17484099627B0473C56596DF5C /* Requestable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Requestable.swift; path = Auth0/Requestable.swift; sourceTree = "<group>"; };
-		2882594D1F16AF3F2F5D5B73626FB098 /* Pods-BrightspotsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BrightspotsUITests-dummy.m"; sourceTree = "<group>"; };
 		28A3CCFDC77829170B0B12EB9E3391CF /* FontAwesome_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FontAwesome_swift.framework; path = FontAwesome.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		28B770DB11735740B4FF381446BEB23B /* Pods-BrightspotsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BrightspotsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		28EB4DDD9D70757022FFB1B7703647DC /* ScrollableGraphViewDrawingDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollableGraphViewDrawingDelegate.swift; path = Classes/Protocols/ScrollableGraphViewDrawingDelegate.swift; sourceTree = "<group>"; };
 		2B4EE3B7C08159658B986343E78B0281 /* UIView+MaterialRTL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MaterialRTL.h"; path = "Sources/UIView+MaterialRTL.h"; sourceTree = "<group>"; };
 		2CEF8C726CD58A11E630122E61CBE70A /* MDCFontScaler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCFontScaler.h; path = components/Typography/src/MDCFontScaler.h; sourceTree = "<group>"; };
-		2D7089AD6E91393E44965D7F046496F7 /* Pods-BrightspotsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BrightspotsTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2E4EEC8944CDF3A6C4DC3ABA0220357D /* SimpleKeychain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleKeychain-umbrella.h"; sourceTree = "<group>"; };
 		2EBA046494A7E9CE7DF91B4786041E13 /* MaterialComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MaterialComponents-Info.plist"; sourceTree = "<group>"; };
 		2F31BC4192FCEFE93DD15DABC6A04C4A /* MaterialPalettes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialPalettes.h; path = components/Palettes/src/MaterialPalettes.h; sourceTree = "<group>"; };
@@ -612,7 +598,8 @@
 		383EDDC6A0A6F79C7EB337811DD1847E /* MDCFlatButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCFlatButton.m; path = components/Buttons/src/MDCFlatButton.m; sourceTree = "<group>"; };
 		38C3BFEDA135C895522407157D0A340A /* NSData+URLSafe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSData+URLSafe.swift"; path = "Auth0/NSData+URLSafe.swift"; sourceTree = "<group>"; };
 		392B69097920F68F1EB1872F635E66F3 /* MDCShapedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCShapedView.m; path = components/Shapes/src/MDCShapedView.m; sourceTree = "<group>"; };
-		39C3FC04B8BABF32472FD6B089AB052A /* Pods-BrightspotsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BrightspotsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		39F486DEFEDB2C9AC7339DA87552F275 /* Pods-BrightspotsTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BrightspotsTests-Info.plist"; sourceTree = "<group>"; };
+		3A21561EC5DCF3D2BD1A3ACE284BB9EA /* Pods-Brightspots-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Brightspots-Info.plist"; sourceTree = "<group>"; };
 		3ACB504362755B1992C0FD1320CADBA0 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Auth0/Result.swift; sourceTree = "<group>"; };
 		3B2FDB3EEA2ECEA53D7A446584942B54 /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
 		3B34D0651112104FBF60DDD0EFF8A868 /* MDFInternationalization-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDFInternationalization-prefix.pch"; sourceTree = "<group>"; };
@@ -646,11 +633,11 @@
 		5025083B4D10FCFD6ADFF2644EFD9A62 /* UIFont+MaterialTypography.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+MaterialTypography.m"; path = "components/Typography/src/UIFont+MaterialTypography.m"; sourceTree = "<group>"; };
 		514359C91C8B610B59DFBBCD8F3D788D /* Font Awesome 5 Brands-Regular-400.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Font Awesome 5 Brands-Regular-400.otf"; path = "FontAwesome/Font Awesome 5 Brands-Regular-400.otf"; sourceTree = "<group>"; };
 		5235962C5381D58B5AC6978CBB54A956 /* paper-onboarding.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "paper-onboarding.xcconfig"; sourceTree = "<group>"; };
-		528EE60A8528F0B41BA42AF5C290505E /* Pods-Brightspots.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Brightspots.modulemap"; sourceTree = "<group>"; };
 		52970EAC21DF9EE68F12939F1AB46722 /* MDCRaisedButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCRaisedButton.m; path = components/Buttons/src/MDCRaisedButton.m; sourceTree = "<group>"; };
 		52B19327ACBB069359DD07D9E555C583 /* Management.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Management.swift; path = Auth0/Management.swift; sourceTree = "<group>"; };
 		5358F21AED4BA52815905C741F7264A9 /* MDFInternationalization.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MDFInternationalization.modulemap; sourceTree = "<group>"; };
 		5456BB26652FAF6953C302E251BC51D8 /* MaterialShadowElevations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialShadowElevations.h; path = components/ShadowElevations/src/MaterialShadowElevations.h; sourceTree = "<group>"; };
+		5464C2B2B255DDAD5CC208D843234690 /* Pods-Brightspots-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Brightspots-umbrella.h"; sourceTree = "<group>"; };
 		568339DD918AD16A7C981AC3EA3DA779 /* CredentialsManagerError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CredentialsManagerError.swift; path = Auth0/CredentialsManagerError.swift; sourceTree = "<group>"; };
 		56A1F07DF5A900834ABCD7C6E6E025F2 /* MDCOutlinedButtonThemer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCOutlinedButtonThemer.m; path = components/Buttons/src/ButtonThemer/MDCOutlinedButtonThemer.m; sourceTree = "<group>"; };
 		56D2CDAD811120871B00C17CA57A8FBD /* FontAwesomeTextRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeTextRepresentable.swift; path = FontAwesome/FontAwesomeTextRepresentable.swift; sourceTree = "<group>"; };
@@ -658,7 +645,6 @@
 		57738B4419E53DD4008956F8A2588F08 /* A0SimpleKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0SimpleKeychain.h; path = SimpleKeychain/A0SimpleKeychain.h; sourceTree = "<group>"; };
 		57756A4C41A2F65D83EF28E2C64C1975 /* FontAwesome.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesome.swift.xcconfig; sourceTree = "<group>"; };
 		582DBD531A3AE213E9E808665F844727 /* UIFont+MaterialTypography.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+MaterialTypography.h"; path = "components/Typography/src/UIFont+MaterialTypography.h"; sourceTree = "<group>"; };
-		58323709AA43C45CFA249958071F6D38 /* Pods-BrightspotsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BrightspotsUITests.modulemap"; sourceTree = "<group>"; };
 		5898371AFC2A9235F12FF3B387BCD863 /* AloeStackView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AloeStackView-Info.plist"; sourceTree = "<group>"; };
 		592C9BA477650D094563E30A3FC8AD7D /* OAuth2Grant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2Grant.swift; path = Auth0/OAuth2Grant.swift; sourceTree = "<group>"; };
 		59FB021EE85546505585316237786A42 /* MDCIcons+BundleLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MDCIcons+BundleLoader.h"; path = "components/private/Icons/src/MDCIcons+BundleLoader.h"; sourceTree = "<group>"; };
@@ -687,7 +673,6 @@
 		6AB2EE0F95DBADDE5D8B53035D6C97C8 /* UIApplication+AppExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+AppExtensions.m"; path = "components/private/Application/src/UIApplication+AppExtensions.m"; sourceTree = "<group>"; };
 		6D55E010C1AF24AF0CB58CD442385143 /* Auth0Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Auth0Error.swift; path = Auth0/Auth0Error.swift; sourceTree = "<group>"; };
 		6D5FE886B98B8BD322E7E30C94740161 /* MDFInternationalization-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDFInternationalization-umbrella.h"; sourceTree = "<group>"; };
-		6DA16D79AD5F892CCEF3AE6C6A3D87B9 /* Pods-Brightspots.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Brightspots.release.xcconfig"; sourceTree = "<group>"; };
 		6E965AAF83D72A3AB6DA04FFE235ED1D /* MaterialCards.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialCards.h; path = components/Cards/src/MaterialCards.h; sourceTree = "<group>"; };
 		714B140CCE299FB6A464AC7D6A51CEDA /* Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Date.swift; path = Auth0/Date.swift; sourceTree = "<group>"; };
 		715A1A061898E690058C359BB0C9FFE6 /* Auth0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Auth0.xcconfig; sourceTree = "<group>"; };
@@ -705,25 +690,25 @@
 		75BBAE29793B774DCA6E5A74C6056785 /* MDCRippleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCRippleView.h; path = components/Ripple/src/MDCRippleView.h; sourceTree = "<group>"; };
 		7692B6954608CED82DEF9AD8E8485143 /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = FontAwesome/FontAwesome.swift; sourceTree = "<group>"; };
 		7700B5B98AC800A50C308A12EAA20E91 /* MDCPalettes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCPalettes.h; path = components/Palettes/src/MDCPalettes.h; sourceTree = "<group>"; };
-		773A7CE390B6EEBECBD6CFC6BF50EDCD /* Pods-Brightspots-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Brightspots-umbrella.h"; sourceTree = "<group>"; };
 		7820B2C162EE019F345FE6711D4FBC4D /* FontAwesomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeView.swift; path = FontAwesome/FontAwesomeView.swift; sourceTree = "<group>"; };
 		784A393B991BAF4D3493EC2258DA1126 /* MaterialButtons+TypographyThemer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MaterialButtons+TypographyThemer.h"; path = "components/Buttons/src/TypographyThemer/MaterialButtons+TypographyThemer.h"; sourceTree = "<group>"; };
-		790D4CFFB2D260CBBAE93320581B646B /* Pods-BrightspotsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BrightspotsTests-dummy.m"; sourceTree = "<group>"; };
+		78AB355F1668959A70A27F7AB4DDC5DC /* Pods-Brightspots.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Brightspots.modulemap"; sourceTree = "<group>"; };
 		79437FA1D87DFB2E6554B7BF4B5E345B /* BioAuthentication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BioAuthentication.swift; path = Auth0/BioAuthentication.swift; sourceTree = "<group>"; };
 		794B8DA446A98AB5CE24A3D850F8977F /* FontAwesome.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FontAwesome.swift.modulemap; sourceTree = "<group>"; };
 		7B23956888537BD07D41520F52BD5B23 /* MDCTriangleEdgeTreatment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTriangleEdgeTreatment.h; path = components/ShapeLibrary/src/MDCTriangleEdgeTreatment.h; sourceTree = "<group>"; };
 		7BBBA0A776EDB592FE64E55F6A2FAB5E /* Pods_Brightspots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Brightspots.framework; path = "Pods-Brightspots.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C5D0F6030D0EEED26739900B5876D3D /* Pods-BrightspotsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BrightspotsTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7C8753B7CC37428484377F0DE11739CC /* UIFontDescriptor+MaterialTypography.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFontDescriptor+MaterialTypography.h"; path = "components/Typography/src/UIFontDescriptor+MaterialTypography.h"; sourceTree = "<group>"; };
 		7D2D9A13BD9872A28EB7D6A11ADC540F /* AloeStackView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AloeStackView-prefix.pch"; sourceTree = "<group>"; };
 		7D8A2ABA2A2795E646854268EE5C3E1F /* FillAnimationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FillAnimationView.swift; path = Source/FillAnimationView/FillAnimationView.swift; sourceTree = "<group>"; };
 		7DFA106449DEFC33F052DC88703C6CC5 /* MDCLegacyTonalColorScheme.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCLegacyTonalColorScheme.h; path = components/schemes/Color/src/MDCLegacyTonalColorScheme.h; sourceTree = "<group>"; };
 		7F05E4F983E33D5FF9E930A496847CD7 /* MDFInternationalization-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MDFInternationalization-dummy.m"; sourceTree = "<group>"; };
 		80ED564B6857864FE9F2EB980D6764B0 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/LocalAuthentication.framework; sourceTree = DEVELOPER_DIR; };
-		81192EA4C7A08ADE14F827F541F58281 /* Pods-Brightspots-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Brightspots-frameworks.sh"; sourceTree = "<group>"; };
 		81A12FB57A7B7313FFE9E51D3BB71782 /* NSURLComponents+OAuth2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLComponents+OAuth2.swift"; path = "Auth0/NSURLComponents+OAuth2.swift"; sourceTree = "<group>"; };
 		81B85EB58C0118DD173216FB704338C1 /* Auth0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Auth0-prefix.pch"; sourceTree = "<group>"; };
 		82279F316E9CF19C90D1FA1C129727AD /* MDCPaletteNames.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCPaletteNames.h; path = components/Palettes/src/private/MDCPaletteNames.h; sourceTree = "<group>"; };
 		83535594D9AB0B1D3CEBF87CB360A4C3 /* PageViewItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageViewItem.swift; path = Source/PageView/Item/PageViewItem.swift; sourceTree = "<group>"; };
+		83D86E17DA7E766A089DCB8BC498C45F /* Pods-BrightspotsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BrightspotsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		848E3660ABF99733B730D5E423C02DCA /* MDCTypographyScheme.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTypographyScheme.m; path = components/schemes/Typography/src/MDCTypographyScheme.m; sourceTree = "<group>"; };
 		85775D2AB0D88DC28B4F34E85CC0D380 /* MDCSemanticColorScheme.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSemanticColorScheme.m; path = components/schemes/Color/src/MDCSemanticColorScheme.m; sourceTree = "<group>"; };
 		85CB3D8F3E355AC851636F66B18684EF /* MaterialCards+ColorThemer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MaterialCards+ColorThemer.h"; path = "components/Cards/src/ColorThemer/MaterialCards+ColorThemer.h"; sourceTree = "<group>"; };
@@ -732,11 +717,11 @@
 		86814C595241A769E3BC53B591B064E3 /* MDCOutlinedButtonThemer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCOutlinedButtonThemer.h; path = components/Buttons/src/ButtonThemer/MDCOutlinedButtonThemer.h; sourceTree = "<group>"; };
 		8753F386BD8EFA7A783558B63AECE6BB /* AuthSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthSession.swift; path = Auth0/AuthSession.swift; sourceTree = "<group>"; };
 		875EBE38ACE5A963F208CAFD581500B6 /* MDCInkLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCInkLayer.h; path = components/Ink/src/private/MDCInkLayer.h; sourceTree = "<group>"; };
-		8788F71C2E56A4A4E8B4080872205A0D /* Pods-BrightspotsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BrightspotsTests.modulemap"; sourceTree = "<group>"; };
 		8A8E9D82DD9A5BC1AF9F314F768BE35D /* AloeStackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AloeStackView.swift; path = Sources/AloeStackView/AloeStackView.swift; sourceTree = "<group>"; };
 		8AEB16C84BC6FEC48D3BBF3D63194AF0 /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
 		8B5477AB19DE7F13D97B2273D6545273 /* MDCFloatingButtonColorThemer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCFloatingButtonColorThemer.m; path = components/Buttons/src/ColorThemer/MDCFloatingButtonColorThemer.m; sourceTree = "<group>"; };
 		8DE93EEDAE545AA66D8B30F4A057F49F /* MDFInternationalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MDFInternationalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E075A80AAF24B4C4076DEE8D0FD5686 /* Pods-Brightspots-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Brightspots-acknowledgements.plist"; sourceTree = "<group>"; };
 		8F1930F55D7A07CD32A91B036AA15441 /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
 		8F26C23A01B435DD8B5D94C23F635C32 /* CredentialsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CredentialsManager.swift; path = Auth0/CredentialsManager.swift; sourceTree = "<group>"; };
 		8FD02501880DC409C91D367790D19A4F /* A0ChallengeGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0ChallengeGenerator.h; path = Auth0/A0ChallengeGenerator.h; sourceTree = "<group>"; };
@@ -754,7 +739,6 @@
 		96F23F60C4140E41E788A5B9D44F405D /* MDCRippleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCRippleView.m; path = components/Ripple/src/MDCRippleView.m; sourceTree = "<group>"; };
 		970FF5F7ED6DCE46BF6A29868AAF27C4 /* SimpleKeychain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SimpleKeychain-Info.plist"; sourceTree = "<group>"; };
 		9770EC117CB57BD60D472812B2BC288A /* MaterialShadowLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialShadowLayer.h; path = components/ShadowLayer/src/MaterialShadowLayer.h; sourceTree = "<group>"; };
-		97765010D63BEA9D1518772253516A4D /* Pods-BrightspotsTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BrightspotsTests-Info.plist"; sourceTree = "<group>"; };
 		982E64EAEF34CBC14B69E64917C5C35D /* OnboardingContantViewItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnboardingContantViewItem.swift; path = Source/OnboardingContentView/Item/OnboardingContantViewItem.swift; sourceTree = "<group>"; };
 		983272A31513055694595FA1A0DF40BC /* ConstraintsHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintsHelper.swift; path = Source/Helpers/ConstraintsHelper.swift; sourceTree = "<group>"; };
 		98EA7C05E321C21C46886E61A8736D3A /* OnboardingContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnboardingContentView.swift; path = Source/OnboardingContentView/OnboardingContentView.swift; sourceTree = "<group>"; };
@@ -772,6 +756,7 @@
 		9D83B015794F5C207EB73D6F2EF4FF6F /* MaterialComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MaterialComponents.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DDF035A810DBEB50EE4EB8DE2C6C439 /* MDCRaisedButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCRaisedButton.h; path = components/Buttons/src/MDCRaisedButton.h; sourceTree = "<group>"; };
+		9F264648983C036E898C402E75474026 /* Pods-BrightspotsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BrightspotsTests-dummy.m"; sourceTree = "<group>"; };
 		9F71F0D07E12F33EEEEF9E7EF968CC8B /* MDCButtonTypographyThemer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCButtonTypographyThemer.m; path = components/Buttons/src/TypographyThemer/MDCButtonTypographyThemer.m; sourceTree = "<group>"; };
 		A087F527DF684050B778335C40B00971 /* MDCPalettes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCPalettes.m; path = components/Palettes/src/MDCPalettes.m; sourceTree = "<group>"; };
 		A0A643842666C610C1C30884D9CCBD9F /* FontAwesomeExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeExtension.swift; path = FontAwesome/FontAwesomeExtension.swift; sourceTree = "<group>"; };
@@ -802,6 +787,7 @@
 		AC38D7A7092B20394FB505CF4F6BA2BC /* ControllerModalPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControllerModalPresenter.swift; path = Auth0/ControllerModalPresenter.swift; sourceTree = "<group>"; };
 		ACA7E691C7128D6A3A6A7EA74381A76E /* Auth0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Auth0-dummy.m"; sourceTree = "<group>"; };
 		ACDD9501AAFB1EA6DA372E209CFD2EF6 /* MDFTextAccessibility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDFTextAccessibility.m; path = src/MDFTextAccessibility.m; sourceTree = "<group>"; };
+		AD206EF718FBE61EFBFA92549E68D6E6 /* Pods-Brightspots.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Brightspots.debug.xcconfig"; sourceTree = "<group>"; };
 		AD53CF9C842C66FB43C8E83F12547F00 /* CAMediaTimingFunction+MDCAnimationTiming.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAMediaTimingFunction+MDCAnimationTiming.m"; path = "components/AnimationTiming/src/CAMediaTimingFunction+MDCAnimationTiming.m"; sourceTree = "<group>"; };
 		AD6ABCDD77DB14F65D818E282E3E8F4F /* MDCLegacyColorScheme.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCLegacyColorScheme.h; path = components/schemes/Color/src/MDCLegacyColorScheme.h; sourceTree = "<group>"; };
 		AE49A3487597976EAB210A6389523E03 /* MaterialComponents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaterialComponents-prefix.pch"; sourceTree = "<group>"; };
@@ -809,15 +795,13 @@
 		AEA83EC23E3260E8A93EFFD4CA278CAC /* MaterialShapeScheme.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialShapeScheme.h; path = components/schemes/Shape/src/MaterialShapeScheme.h; sourceTree = "<group>"; };
 		AF1E7D618A989C46814D75A996436354 /* NSString+MaterialBidi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MaterialBidi.m"; path = "Sources/NSString+MaterialBidi.m"; sourceTree = "<group>"; };
 		AF882EC1C6145FEEF6DBBF4794945F1F /* MDFImageCalculations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDFImageCalculations.h; path = src/private/MDFImageCalculations.h; sourceTree = "<group>"; };
+		B02F0B6D138B0B1A312A243030C8A954 /* Pods-Brightspots-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Brightspots-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B04A56231FDDC54630F8D4CE761E6928 /* MDFInternationalization.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MDFInternationalization.xcconfig; sourceTree = "<group>"; };
 		B056C13FB1CB147339DE313DD2F6D320 /* MDCCutCornerTreatment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCCutCornerTreatment.h; path = components/ShapeLibrary/src/MDCCutCornerTreatment.h; sourceTree = "<group>"; };
-		B22E4BBD98BB6F4C2B4B6DA1EDEC4FC6 /* Pods-BrightspotsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BrightspotsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B31294C2AD73A19195296CF2DCBDE037 /* UIFont+MaterialSimpleEquality.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+MaterialSimpleEquality.h"; path = "components/Typography/src/UIFont+MaterialSimpleEquality.h"; sourceTree = "<group>"; };
 		B430FA13D865E0F3691346EDE6D0D97F /* MDFTextAccessibility-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MDFTextAccessibility-Bridging-Header.h"; path = "src/MDFTextAccessibility-Bridging-Header.h"; sourceTree = "<group>"; };
-		B4619A205964583B15FD0A3AD0866CB2 /* Pods-Brightspots-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Brightspots-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B4B195FE15CF7231ACF39BF0E52B73EB /* ScrollableGraphView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScrollableGraphView-dummy.m"; sourceTree = "<group>"; };
 		B4C39E73208DBBF0DF178BEE899B215B /* WebAuthError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebAuthError.swift; path = Auth0/WebAuthError.swift; sourceTree = "<group>"; };
-		B51E6C394B53C4406EF5E46136DD2528 /* Pods-BrightspotsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BrightspotsTests.release.xcconfig"; sourceTree = "<group>"; };
 		B63EAE79563D621A308116AE9F73FF23 /* MDCCardsColorThemer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCCardsColorThemer.h; path = components/Cards/src/ColorThemer/MDCCardsColorThemer.h; sourceTree = "<group>"; };
 		B660B93E25AF664027286DBDDE9E0A5F /* Auth0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Auth0.modulemap; sourceTree = "<group>"; };
 		B783665400E7FB86F11FA1E2511D75A2 /* MaterialApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialApplication.h; path = components/private/Application/src/MaterialApplication.h; sourceTree = "<group>"; };
@@ -827,6 +811,7 @@
 		BB465873BB4DAE66874D78CAC7EEF3D7 /* MDCCurvedRectShapeGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCCurvedRectShapeGenerator.m; path = components/ShapeLibrary/src/MDCCurvedRectShapeGenerator.m; sourceTree = "<group>"; };
 		BC98428658D493BDD54ECDA8D8F69EB7 /* MDCMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCMath.h; path = components/private/Math/src/MDCMath.h; sourceTree = "<group>"; };
 		BCA37412B246EBDD45B1699DEB854E1D /* Handlers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Handlers.swift; path = Auth0/Handlers.swift; sourceTree = "<group>"; };
+		BCE3E0162994331B429788381DBFA0A8 /* Pods-BrightspotsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BrightspotsTests-umbrella.h"; sourceTree = "<group>"; };
 		BD5D467A3292A9071C28E19264E072A0 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
 		BE3FFB0F5377FBA642ABF04BE62394C7 /* FontAwesomeTabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeTabBarItem.swift; path = FontAwesome/FontAwesomeTabBarItem.swift; sourceTree = "<group>"; };
 		BF39CFF98EA7F19DE486D0BB242B7F06 /* MDCSemanticColorScheme.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSemanticColorScheme.h; path = components/schemes/Color/src/MDCSemanticColorScheme.h; sourceTree = "<group>"; };
@@ -834,12 +819,12 @@
 		BFFA40F7468FC46F82098711A64F5583 /* SeparatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SeparatorView.swift; path = Sources/AloeStackView/Views/SeparatorView.swift; sourceTree = "<group>"; };
 		C0F5DAE37BB55CEFB3938992D540BE5B /* MDCInkTouchController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCInkTouchController.h; path = components/Ink/src/MDCInkTouchController.h; sourceTree = "<group>"; };
 		C3016B2B5E63DD824D931701440A24C5 /* MDCPillShapeGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCPillShapeGenerator.h; path = components/ShapeLibrary/src/MDCPillShapeGenerator.h; sourceTree = "<group>"; };
-		C311C1690BE4C8A6EA8F3FBC7CCAD47D /* Pods-Brightspots.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Brightspots.debug.xcconfig"; sourceTree = "<group>"; };
 		C4291C7FDF0FCFF0F87EF96C6D0B5A6D /* Auth0-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Auth0-Info.plist"; sourceTree = "<group>"; };
 		C449751236F85034711933E2A44676B4 /* MDCIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCIcons.m; path = components/private/Icons/src/MDCIcons.m; sourceTree = "<group>"; };
 		C4C70DEF9B685EA6AE89CD2A7FC09C39 /* SilentSafariViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SilentSafariViewController.swift; path = Auth0/SilentSafariViewController.swift; sourceTree = "<group>"; };
 		C698F7332ABE7E3B7D997475346C36E5 /* FontAwesome.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-umbrella.h"; sourceTree = "<group>"; };
 		C69D1E122473F4BEDE8EC73F5746762F /* MDCRippleTouchController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCRippleTouchController.m; path = components/Ripple/src/MDCRippleTouchController.m; sourceTree = "<group>"; };
+		C7302F9A1195FF6FCF447C1A916E6FC1 /* Pods-BrightspotsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BrightspotsTests.modulemap"; sourceTree = "<group>"; };
 		C740ABA535C875FC2085F98EA1F9E322 /* MDFRTL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDFRTL.m; path = Sources/MDFRTL.m; sourceTree = "<group>"; };
 		C8705FD8A221C9A2C24B5C5BF25BE81F /* MDCShadowElevations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCShadowElevations.h; path = components/ShadowElevations/src/MDCShadowElevations.h; sourceTree = "<group>"; };
 		C94F22C0912FC063247916218E5D7C59 /* PaperOnboardingDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaperOnboardingDataSource.swift; path = Source/PaperOnboardingDataSource.swift; sourceTree = "<group>"; };
@@ -850,6 +835,7 @@
 		CC19AB05C1F1420602531509EAE5D15E /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
 		CD33C5BF44CFF838AEBF1C08CD48EA58 /* Profile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Profile.swift; path = Auth0/Profile.swift; sourceTree = "<group>"; };
 		CD3B027EC578E22891ED55C05705F3CD /* SimpleKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleKeychain.framework; path = SimpleKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2CBD3E38CA7A5E1F4862A57A943574 /* Pods-Brightspots.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Brightspots.release.xcconfig"; sourceTree = "<group>"; };
 		CE6C4144E9B4EEA99D1E60512D87CDDF /* Auth0.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Auth0.h; path = Auth0/Auth0.h; sourceTree = "<group>"; };
 		CEEC1E167CF0B8630E2E763D3C05BC61 /* MDCContainedButtonThemer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCContainedButtonThemer.h; path = components/Buttons/src/ButtonThemer/MDCContainedButtonThemer.h; sourceTree = "<group>"; };
 		D018C57470DBB4384F58FFDC685D1C1F /* MaterialComponents.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MaterialComponents.xcconfig; sourceTree = "<group>"; };
@@ -857,7 +843,6 @@
 		D1C27306B3FFDFA043B590E513DAD7DD /* MDCShapeCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCShapeCategory.h; path = components/schemes/Shape/src/MDCShapeCategory.h; sourceTree = "<group>"; };
 		D1F5298F4D7D6E4146D29380309F522A /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Auth0/Request.swift; sourceTree = "<group>"; };
 		D2312D83244D56D6F12A4ADA153F2402 /* SafariWebAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SafariWebAuth.swift; path = Auth0/SafariWebAuth.swift; sourceTree = "<group>"; };
-		D29B63C25D28B6D6624E6BFB4DD97F21 /* Pods-Brightspots-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Brightspots-acknowledgements.plist"; sourceTree = "<group>"; };
 		D39DE325105DA983E2BA94EEBBF284AB /* _ObjectiveWebAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _ObjectiveWebAuth.swift; path = Auth0/_ObjectiveWebAuth.swift; sourceTree = "<group>"; };
 		D3DC1C09A68538152520326A3BF02197 /* PaperOnboarding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaperOnboarding.swift; path = Source/PaperOnboarding.swift; sourceTree = "<group>"; };
 		D69E17E8A3E1325059F3FA4C0304CC23 /* CAMediaTimingFunction+MDCAnimationTiming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAMediaTimingFunction+MDCAnimationTiming.h"; path = "components/AnimationTiming/src/CAMediaTimingFunction+MDCAnimationTiming.h"; sourceTree = "<group>"; };
@@ -867,7 +852,6 @@
 		D80844AE969AE32ED78FB5E519767F0E /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Auth0/Response.swift; sourceTree = "<group>"; };
 		D80F4891A4A24799C255C32F5E6B79C4 /* Tappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tappable.swift; path = Sources/AloeStackView/Protocols/Tappable.swift; sourceTree = "<group>"; };
 		D8272CB5E115307BCF0E1FC57637EA74 /* ManagementError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagementError.swift; path = Auth0/ManagementError.swift; sourceTree = "<group>"; };
-		D846889838876A43547AE56E8A1D29B0 /* Pods-BrightspotsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BrightspotsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D873DA74E58A546AEF1A66D1828D1DEC /* MDCContainedButtonColorThemer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCContainedButtonColorThemer.m; path = components/Buttons/src/ColorThemer/MDCContainedButtonColorThemer.m; sourceTree = "<group>"; };
 		DA2298FF4893C80826F5664FC00A78D5 /* MDCShadowLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCShadowLayer.m; path = components/ShadowLayer/src/MDCShadowLayer.m; sourceTree = "<group>"; };
 		DA3ECC5BF4E976A0A769F3C33389DA68 /* MaterialColorScheme.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialColorScheme.h; path = components/schemes/Color/src/MaterialColorScheme.h; sourceTree = "<group>"; };
@@ -879,7 +863,6 @@
 		DD83D95E0AD787AA8C7F99D2C0B1D78F /* ReferenceLines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReferenceLines.swift; path = Classes/Reference/ReferenceLines.swift; sourceTree = "<group>"; };
 		DD9000BB90208A2C10B5C1270CC33BFE /* MDCShapeScheme.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCShapeScheme.m; path = components/schemes/Shape/src/MDCShapeScheme.m; sourceTree = "<group>"; };
 		DDE5A4A5426F9A15C390BBD63950A120 /* MDCCornerTreatment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCCornerTreatment.m; path = components/Shapes/src/MDCCornerTreatment.m; sourceTree = "<group>"; };
-		DDEE9C1D20018252E96EB2462C94186B /* Pods-BrightspotsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BrightspotsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DE6A85C661161BE847F768D2FC81C686 /* Auth0.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Auth0.swift; path = Auth0/Auth0.swift; sourceTree = "<group>"; };
 		DEBF66CE4F3BC4FD606B1E5AC74960A7 /* MDCInkGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCInkGestureRecognizer.h; path = components/Ink/src/MDCInkGestureRecognizer.h; sourceTree = "<group>"; };
 		E03BF0965F2D7141CA679333C867FBB3 /* MDCPaletteNames.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCPaletteNames.m; path = components/Palettes/src/private/MDCPaletteNames.m; sourceTree = "<group>"; };
@@ -888,7 +871,6 @@
 		E296C0603F18AEC3DB5C972721190FFF /* MDFRTL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDFRTL.h; path = Sources/MDFRTL.h; sourceTree = "<group>"; };
 		E3B84C79CD3F2A9197D3EF26BD06318A /* _ObjectiveManagementAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _ObjectiveManagementAPI.swift; path = Auth0/_ObjectiveManagementAPI.swift; sourceTree = "<group>"; };
 		E3FABF879E1F921AF10C36DF56BBD271 /* PureLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PureLayout-Info.plist"; sourceTree = "<group>"; };
-		E411C4CD377DCF3C5E8DCC57137FE152 /* Pods-Brightspots-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Brightspots-dummy.m"; sourceTree = "<group>"; };
 		E4A039A38FDF73971C42A4D9C3B6EC53 /* UIFont+MaterialTypographyPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+MaterialTypographyPrivate.h"; path = "components/Typography/src/private/UIFont+MaterialTypographyPrivate.h"; sourceTree = "<group>"; };
 		E4CCC5A081E13237BD2FFC5FE811645B /* MDCContainedButtonColorThemer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCContainedButtonColorThemer.h; path = components/Buttons/src/ColorThemer/MDCContainedButtonColorThemer.h; sourceTree = "<group>"; };
 		E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PureLayout.framework; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -910,6 +892,7 @@
 		ED1CFEB535AF14BD34FDDD734EBF66DD /* FontAwesomeImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeImageView.swift; path = FontAwesome/FontAwesomeImageView.swift; sourceTree = "<group>"; };
 		ED5DBDB7D71B3BF378472ACFFB723A68 /* MDCFloatingButtonShapeThemer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCFloatingButtonShapeThemer.h; path = components/Buttons/src/ShapeThemer/MDCFloatingButtonShapeThemer.h; sourceTree = "<group>"; };
 		ED72BDF652578E657F20B5E8D27FDEFC /* MaterialComponents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MaterialComponents-dummy.m"; sourceTree = "<group>"; };
+		ED7FEA91FACA6394538E955CD69E3BA2 /* Pods-BrightspotsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BrightspotsTests.release.xcconfig"; sourceTree = "<group>"; };
 		EE45872CD5EFF3FE1118CE3D5BD1CC71 /* NSLocale+MaterialRTL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLocale+MaterialRTL.h"; path = "Sources/NSLocale+MaterialRTL.h"; sourceTree = "<group>"; };
 		EE94831A3D22F0AF09702C4B3F9CB724 /* JSONObjectPayload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONObjectPayload.swift; path = Auth0/JSONObjectPayload.swift; sourceTree = "<group>"; };
 		EE99853C1B0ACE0A8F5F8E49D8628EF7 /* UIFont+MaterialSimpleEquality.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+MaterialSimpleEquality.m"; path = "components/Typography/src/UIFont+MaterialSimpleEquality.m"; sourceTree = "<group>"; };
@@ -918,7 +901,6 @@
 		EEE84AC537BA9073CD7B4E96C10B9C4C /* SimpleKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE9516408149F5966303FCB5C27AEE3 /* MDCShapeGenerating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCShapeGenerating.h; path = components/Shapes/src/MDCShapeGenerating.h; sourceTree = "<group>"; };
 		EFC1C7D060E57C960CBEC14CEC04D572 /* paper-onboarding-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "paper-onboarding-Info.plist"; sourceTree = "<group>"; };
-		F02C25B842CBF94E08D5E4F9D08EC791 /* Pods-Brightspots-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Brightspots-Info.plist"; sourceTree = "<group>"; };
 		F04E9C7A1704C399DDD4D898A76D3E08 /* MDFTextAccessibility-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MDFTextAccessibility-Info.plist"; sourceTree = "<group>"; };
 		F2473B5B2A9C97049609DE8A981DE1C3 /* MaterialButtons+ColorThemer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MaterialButtons+ColorThemer.h"; path = "components/Buttons/src/ColorThemer/MaterialButtons+ColorThemer.h"; sourceTree = "<group>"; };
 		F34D47AE4E0DCA8F9A995BC57BE69F74 /* MDCTypographyUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTypographyUtilities.m; path = components/Typography/src/private/MDCTypographyUtilities.m; sourceTree = "<group>"; };
@@ -935,7 +917,6 @@
 		FC3834C5B17F69D512B5A9EBCA9A55E8 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
 		FC55E819D2927131F187ABFE71D60BBE /* MDCPaletteExpansions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCPaletteExpansions.h; path = components/Palettes/src/private/MDCPaletteExpansions.h; sourceTree = "<group>"; };
 		FCE79AA2841878BBF0D336D87CB004BF /* MDCPaletteExpansions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCPaletteExpansions.m; path = components/Palettes/src/private/MDCPaletteExpansions.m; sourceTree = "<group>"; };
-		FCFD7B1BC36FA7C8481DBD2C68962F49 /* Pods-BrightspotsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BrightspotsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FDD81DBF384E944971A981E355D55D51 /* paper-onboarding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "paper-onboarding-prefix.pch"; sourceTree = "<group>"; };
 		FE949A1A898C62F119EFBFA305F05759 /* DotDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DotDrawingLayer.swift; path = Classes/Drawing/DotDrawingLayer.swift; sourceTree = "<group>"; };
 		FEAA7AAC52E7D83A67FFE9636D7AD3E9 /* LineDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineDrawingLayer.swift; path = Classes/Drawing/LineDrawingLayer.swift; sourceTree = "<group>"; };
@@ -957,14 +938,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B45733DF72B8F6519ED2C771C8E252EE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3FE1A258438081AF3DBF92A86A0C231A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5E318FA835F3BA4560F4B3D095B47F2B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1249,23 +1222,6 @@
 			path = "../Target Support Files/MaterialComponents";
 			sourceTree = "<group>";
 		};
-		2A25040AE38F5A5A0F74F699B4ACD72B /* Pods-Brightspots */ = {
-			isa = PBXGroup;
-			children = (
-				528EE60A8528F0B41BA42AF5C290505E /* Pods-Brightspots.modulemap */,
-				B4619A205964583B15FD0A3AD0866CB2 /* Pods-Brightspots-acknowledgements.markdown */,
-				D29B63C25D28B6D6624E6BFB4DD97F21 /* Pods-Brightspots-acknowledgements.plist */,
-				E411C4CD377DCF3C5E8DCC57137FE152 /* Pods-Brightspots-dummy.m */,
-				81192EA4C7A08ADE14F827F541F58281 /* Pods-Brightspots-frameworks.sh */,
-				F02C25B842CBF94E08D5E4F9D08EC791 /* Pods-Brightspots-Info.plist */,
-				773A7CE390B6EEBECBD6CFC6BF50EDCD /* Pods-Brightspots-umbrella.h */,
-				C311C1690BE4C8A6EA8F3FBC7CCAD47D /* Pods-Brightspots.debug.xcconfig */,
-				6DA16D79AD5F892CCEF3AE6C6A3D87B9 /* Pods-Brightspots.release.xcconfig */,
-			);
-			name = "Pods-Brightspots";
-			path = "Target Support Files/Pods-Brightspots";
-			sourceTree = "<group>";
-		};
 		2AD24728A8A13501DD3B7F6766E6E850 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1297,6 +1253,23 @@
 				52970EAC21DF9EE68F12939F1AB46722 /* MDCRaisedButton.m */,
 			);
 			name = Buttons;
+			sourceTree = "<group>";
+		};
+		2B718BA1A09313BE2780C09F1DBB3B8E /* Pods-Brightspots */ = {
+			isa = PBXGroup;
+			children = (
+				78AB355F1668959A70A27F7AB4DDC5DC /* Pods-Brightspots.modulemap */,
+				B02F0B6D138B0B1A312A243030C8A954 /* Pods-Brightspots-acknowledgements.markdown */,
+				8E075A80AAF24B4C4076DEE8D0FD5686 /* Pods-Brightspots-acknowledgements.plist */,
+				08D21275EA70AF346B5E1CEF3F08D594 /* Pods-Brightspots-dummy.m */,
+				2153D075E1B2F0091A656CDB0871E21A /* Pods-Brightspots-frameworks.sh */,
+				3A21561EC5DCF3D2BD1A3ACE284BB9EA /* Pods-Brightspots-Info.plist */,
+				5464C2B2B255DDAD5CC208D843234690 /* Pods-Brightspots-umbrella.h */,
+				AD206EF718FBE61EFBFA92549E68D6E6 /* Pods-Brightspots.debug.xcconfig */,
+				CE2CBD3E38CA7A5E1F4862A57A943574 /* Pods-Brightspots.release.xcconfig */,
+			);
+			name = "Pods-Brightspots";
+			path = "Target Support Files/Pods-Brightspots";
 			sourceTree = "<group>";
 		};
 		2F888094462B99A1F1F80D897FCDA447 /* FontAwesome.swift */ = {
@@ -1354,22 +1327,6 @@
 				A087F527DF684050B778335C40B00971 /* MDCPalettes.m */,
 			);
 			name = Palettes;
-			sourceTree = "<group>";
-		};
-		41A77D8481D8C972F21B49081F2A8A2B /* Pods-BrightspotsTests */ = {
-			isa = PBXGroup;
-			children = (
-				8788F71C2E56A4A4E8B4080872205A0D /* Pods-BrightspotsTests.modulemap */,
-				D846889838876A43547AE56E8A1D29B0 /* Pods-BrightspotsTests-acknowledgements.markdown */,
-				2D7089AD6E91393E44965D7F046496F7 /* Pods-BrightspotsTests-acknowledgements.plist */,
-				790D4CFFB2D260CBBAE93320581B646B /* Pods-BrightspotsTests-dummy.m */,
-				97765010D63BEA9D1518772253516A4D /* Pods-BrightspotsTests-Info.plist */,
-				0D359CD33EECA7448E348F30B54EC65F /* Pods-BrightspotsTests-umbrella.h */,
-				39C3FC04B8BABF32472FD6B089AB052A /* Pods-BrightspotsTests.debug.xcconfig */,
-				B51E6C394B53C4406EF5E46136DD2528 /* Pods-BrightspotsTests.release.xcconfig */,
-			);
-			name = "Pods-BrightspotsTests";
-			path = "Target Support Files/Pods-BrightspotsTests";
 			sourceTree = "<group>";
 		};
 		4223F6F5C74677B91062F8EEE32D03B1 /* Ripple */ = {
@@ -1622,6 +1579,27 @@
 			path = "../Target Support Files/PureLayout";
 			sourceTree = "<group>";
 		};
+		8E30EEE5BFDA29B94A1BF95A8631166B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A456CA48979F87470244D9AA3B0E4EAC /* AloeStackView.framework */,
+				999459C45731F18EC49428C10057EA51 /* Auth0.framework */,
+				3DA4F5DC4EB6E9DF6B4859D27EF8C9F5 /* FontAwesome.swift.bundle */,
+				28A3CCFDC77829170B0B12EB9E3391CF /* FontAwesome_swift.framework */,
+				A34157B3708EDB7D17422B3D92F591D2 /* MaterialComponents.framework */,
+				3CA6F19A19E2E67F5778834EA376B306 /* MaterialIcons_ic_check_circle.bundle */,
+				9A2AC0B8BAC6EF061EBC28825653DF99 /* MDFInternationalization.framework */,
+				FB8220FA4D9117310AEFC629A6EE4A08 /* MDFTextAccessibility.framework */,
+				BFF2591415F9E11048ACCC10A3D52E86 /* paper_onboarding.framework */,
+				7BBBA0A776EDB592FE64E55F6A2FAB5E /* Pods_Brightspots.framework */,
+				F894AAE8DD89EBD84DD75FAE082199B9 /* Pods_BrightspotsTests.framework */,
+				E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* PureLayout.framework */,
+				99BAAECDB80FFA415E210CEC6619A454 /* ScrollableGraphView.framework */,
+				CD3B027EC578E22891ED55C05705F3CD /* SimpleKeychain.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		9419A40CA306DB72312AEFCDD0568F21 /* MaterialComponents */ = {
 			isa = PBXGroup;
 			children = (
@@ -1723,6 +1701,22 @@
 			name = Cards;
 			sourceTree = "<group>";
 		};
+		A3DBFC7380BB86F8B67432AF9744E119 /* Pods-BrightspotsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7302F9A1195FF6FCF447C1A916E6FC1 /* Pods-BrightspotsTests.modulemap */,
+				83D86E17DA7E766A089DCB8BC498C45F /* Pods-BrightspotsTests-acknowledgements.markdown */,
+				7C5D0F6030D0EEED26739900B5876D3D /* Pods-BrightspotsTests-acknowledgements.plist */,
+				9F264648983C036E898C402E75474026 /* Pods-BrightspotsTests-dummy.m */,
+				39F486DEFEDB2C9AC7339DA87552F275 /* Pods-BrightspotsTests-Info.plist */,
+				BCE3E0162994331B429788381DBFA0A8 /* Pods-BrightspotsTests-umbrella.h */,
+				1E0CF6EC2235D2D24A79EF38F311C5A8 /* Pods-BrightspotsTests.debug.xcconfig */,
+				ED7FEA91FACA6394538E955CD69E3BA2 /* Pods-BrightspotsTests.release.xcconfig */,
+			);
+			name = "Pods-BrightspotsTests";
+			path = "Target Support Files/Pods-BrightspotsTests";
+			sourceTree = "<group>";
+		};
 		A433453F52C38569FFDE07569D13BB04 /* paper-onboarding */ = {
 			isa = PBXGroup;
 			children = (
@@ -1802,22 +1796,6 @@
 			path = SimpleKeychain;
 			sourceTree = "<group>";
 		};
-		BDA8A4456CBFEA99862E8AC9CA716280 /* Pods-BrightspotsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				58323709AA43C45CFA249958071F6D38 /* Pods-BrightspotsUITests.modulemap */,
-				B22E4BBD98BB6F4C2B4B6DA1EDEC4FC6 /* Pods-BrightspotsUITests-acknowledgements.markdown */,
-				28B770DB11735740B4FF381446BEB23B /* Pods-BrightspotsUITests-acknowledgements.plist */,
-				2882594D1F16AF3F2F5D5B73626FB098 /* Pods-BrightspotsUITests-dummy.m */,
-				248BADA16F6B62919D88A80711B7F6C2 /* Pods-BrightspotsUITests-Info.plist */,
-				171F72FA5113F5A611DCC57AC121868F /* Pods-BrightspotsUITests-umbrella.h */,
-				DDEE9C1D20018252E96EB2462C94186B /* Pods-BrightspotsUITests.debug.xcconfig */,
-				FCFD7B1BC36FA7C8481DBD2C68962F49 /* Pods-BrightspotsUITests.release.xcconfig */,
-			);
-			name = "Pods-BrightspotsUITests";
-			path = "Target Support Files/Pods-BrightspotsUITests";
-			sourceTree = "<group>";
-		};
 		BDAA8302BA29353918DAAC02096ABFD6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1881,47 +1859,24 @@
 			name = ShadowElevations;
 			sourceTree = "<group>";
 		};
-		CB653D5388088739E3BBF79C7AA8AC38 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A456CA48979F87470244D9AA3B0E4EAC /* AloeStackView.framework */,
-				999459C45731F18EC49428C10057EA51 /* Auth0.framework */,
-				3DA4F5DC4EB6E9DF6B4859D27EF8C9F5 /* FontAwesome.swift.bundle */,
-				28A3CCFDC77829170B0B12EB9E3391CF /* FontAwesome_swift.framework */,
-				A34157B3708EDB7D17422B3D92F591D2 /* MaterialComponents.framework */,
-				3CA6F19A19E2E67F5778834EA376B306 /* MaterialIcons_ic_check_circle.bundle */,
-				9A2AC0B8BAC6EF061EBC28825653DF99 /* MDFInternationalization.framework */,
-				FB8220FA4D9117310AEFC629A6EE4A08 /* MDFTextAccessibility.framework */,
-				BFF2591415F9E11048ACCC10A3D52E86 /* paper_onboarding.framework */,
-				7BBBA0A776EDB592FE64E55F6A2FAB5E /* Pods_Brightspots.framework */,
-				F894AAE8DD89EBD84DD75FAE082199B9 /* Pods_BrightspotsTests.framework */,
-				231B0507933FEEF8DE431BADA6623128 /* Pods_BrightspotsUITests.framework */,
-				E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* PureLayout.framework */,
-				99BAAECDB80FFA415E210CEC6619A454 /* ScrollableGraphView.framework */,
-				CD3B027EC578E22891ED55C05705F3CD /* SimpleKeychain.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		CC7091175C423938845B35C25F43A504 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2A25040AE38F5A5A0F74F699B4ACD72B /* Pods-Brightspots */,
-				41A77D8481D8C972F21B49081F2A8A2B /* Pods-BrightspotsTests */,
-				BDA8A4456CBFEA99862E8AC9CA716280 /* Pods-BrightspotsUITests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				21A3424BD6696F5D53C27036D25B330A /* Frameworks */,
 				5CB90133708A276F1A64CEB59D0FE04E /* Pods */,
-				CB653D5388088739E3BBF79C7AA8AC38 /* Products */,
-				CC7091175C423938845B35C25F43A504 /* Targets Support Files */,
+				8E30EEE5BFDA29B94A1BF95A8631166B /* Products */,
+				D3F454532978AAF392A03A326047D0D6 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D3F454532978AAF392A03A326047D0D6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B718BA1A09313BE2780C09F1DBB3B8E /* Pods-Brightspots */,
+				A3DBFC7380BB86F8B67432AF9744E119 /* Pods-BrightspotsTests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		F2EAE5F37C4072E8ED076CC61FC49134 /* Buttons+ColorThemer */ = {
@@ -2156,14 +2111,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B9139FA7CC8CA98D6253F400CA7CEC1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A9A163B917E2491EFD45BF0ABF52EFFD /* Pods-BrightspotsUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8EEE928621994750C1D1A35610FB03A9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2395,25 +2342,6 @@
 			productReference = F894AAE8DD89EBD84DD75FAE082199B9 /* Pods_BrightspotsTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		81522C2F308FEA20CA3C4A540A76EC69 /* Pods-BrightspotsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6FCC13BBF43DFE3163CBAF40EE85038C /* Build configuration list for PBXNativeTarget "Pods-BrightspotsUITests" */;
-			buildPhases = (
-				8B9139FA7CC8CA98D6253F400CA7CEC1 /* Headers */,
-				68CBD2CA54BE474DCADC7A6048BBD6B9 /* Sources */,
-				3FE1A258438081AF3DBF92A86A0C231A /* Frameworks */,
-				E8E1506CAA57299C6A073D43B4A49614 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9975B3BD4F6F11669D42ECB57FADAC5D /* PBXTargetDependency */,
-			);
-			name = "Pods-BrightspotsUITests";
-			productName = "Pods-BrightspotsUITests";
-			productReference = 231B0507933FEEF8DE431BADA6623128 /* Pods_BrightspotsUITests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		A8E4C927B2E899954BC2FD3314BCA9DA /* MDFTextAccessibility */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC9EE90623117B3DE91F2107404D0FDA /* Build configuration list for PBXNativeTarget "MDFTextAccessibility" */;
@@ -2508,7 +2436,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = CB653D5388088739E3BBF79C7AA8AC38 /* Products */;
+			productRefGroup = 8E30EEE5BFDA29B94A1BF95A8631166B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -2523,7 +2451,6 @@
 				092BBAE106FF2FFA56F415EFB1EDBC41 /* paper-onboarding */,
 				4497EA0A0D2FA6BAA7B8B4C8C88BCDD6 /* Pods-Brightspots */,
 				8042E01287CF131389309663738F56EC /* Pods-BrightspotsTests */,
-				81522C2F308FEA20CA3C4A540A76EC69 /* Pods-BrightspotsUITests */,
 				06F5CDD6235E25837519792853B145A1 /* PureLayout */,
 				286B8AB3D8EF21F4A7B079A55DDA5790 /* ScrollableGraphView */,
 				192AEFA366AAFE1F45B918C022FE489C /* SimpleKeychain */,
@@ -2627,13 +2554,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A3DBD5023577873CA0B240AFCE0454D /* MaterialIcons_ic_check_circle.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E8E1506CAA57299C6A073D43B4A49614 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2791,14 +2711,6 @@
 				DA7AD3832CEF90D139F9C020699FBB92 /* Users.swift in Sources */,
 				80511383A66396C6285B0CF9AD04A3D5 /* WebAuth.swift in Sources */,
 				A2794150400A7CD18545E1DF1CB5DF9B /* WebAuthError.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		68CBD2CA54BE474DCADC7A6048BBD6B9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2B5505F7B50CF6E6B093BEEC2CF697D2 /* Pods-BrightspotsUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3007,12 +2919,6 @@
 			target = 192AEFA366AAFE1F45B918C022FE489C /* SimpleKeychain */;
 			targetProxy = C696FC191FEF72CF30EE960CE1F01459 /* PBXContainerItemProxy */;
 		};
-		9975B3BD4F6F11669D42ECB57FADAC5D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Brightspots";
-			target = 4497EA0A0D2FA6BAA7B8B4C8C88BCDD6 /* Pods-Brightspots */;
-			targetProxy = A5739A923CE5A15E0EEB0271024FE818 /* PBXContainerItemProxy */;
-		};
 		ABA544227412F4E9E442F754C3913174 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SimpleKeychain;
@@ -3060,7 +2966,7 @@
 /* Begin XCBuildConfiguration section */
 		0776896BC370C1C72337C375FDB663A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C311C1690BE4C8A6EA8F3FBC7CCAD47D /* Pods-Brightspots.debug.xcconfig */;
+			baseConfigurationReference = AD206EF718FBE61EFBFA92549E68D6E6 /* Pods-Brightspots.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3293,7 +3199,7 @@
 		};
 		3A3D100D183A6D38D3686F8C0D63B341 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DA16D79AD5F892CCEF3AE6C6A3D87B9 /* Pods-Brightspots.release.xcconfig */;
+			baseConfigurationReference = CE2CBD3E38CA7A5E1F4862A57A943574 /* Pods-Brightspots.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3460,48 +3366,9 @@
 			};
 			name = Debug;
 		};
-		511AAC6F6A5E0FA8DB6DF2D05E2E5889 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCFD7B1BC36FA7C8481DBD2C68962F49 /* Pods-BrightspotsUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BrightspotsUITests/Pods-BrightspotsUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BrightspotsUITests/Pods-BrightspotsUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		5D1A30B90FAD8C4D0DF57C1EE5057876 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B51E6C394B53C4406EF5E46136DD2528 /* Pods-BrightspotsTests.release.xcconfig */;
+			baseConfigurationReference = ED7FEA91FACA6394538E955CD69E3BA2 /* Pods-BrightspotsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3588,44 +3455,6 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
-		};
-		6C56BEA4B1F9836E55C2C4BE337EA43B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDEE9C1D20018252E96EB2462C94186B /* Pods-BrightspotsUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BrightspotsUITests/Pods-BrightspotsUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BrightspotsUITests/Pods-BrightspotsUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		6E81FC164009D20402ED16D64D34969F /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -3994,7 +3823,7 @@
 		};
 		C5CA1DDCAAC71F2E008170EA2057DFB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39C3FC04B8BABF32472FD6B089AB052A /* Pods-BrightspotsTests.debug.xcconfig */;
+			baseConfigurationReference = 1E0CF6EC2235D2D24A79EF38F311C5A8 /* Pods-BrightspotsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -4231,15 +4060,6 @@
 			buildConfigurations = (
 				0A335930E081DFF3A24B8685F6782FC6 /* Debug */,
 				AE12E186CFE15F6F70A72E90E615E2C0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6FCC13BBF43DFE3163CBAF40EE85038C /* Build configuration list for PBXNativeTarget "Pods-BrightspotsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6C56BEA4B1F9836E55C2C4BE337EA43B /* Debug */,
-				511AAC6F6A5E0FA8DB6DF2D05E2E5889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
